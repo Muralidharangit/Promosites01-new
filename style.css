@@ -270,7 +270,7 @@ h6 {
     font-family: 'Rajdhani', sans-serif;
     font-size: clamp(1.8rem, 4.5vw, 3.8rem);
     font-weight: 800;
-    line-height: 1.15;
+    line-height: 1;
     animation: fadeUp .7s ease .1s both;
     color: var(--heading-color) !important;
     text-shadow: 0 2px 12px rgba(255, 255, 255, 0.6);
@@ -278,8 +278,9 @@ h6 {
 
 .hero-title .highlight {
     color: var(--orange) !important;
-    text-shadow: 0 0 12px rgba(255, 106, 0, 0.4), 0 0 2px rgba(255, 106, 0, 0.2);
+    text-shadow: 0 0 15px rgb(248 248 248 / 60%), 0 0 3px rgb(0 0 0 / 59%);
     font-weight: 800;
+    font-size: 47px;
 }
 
 .hero-sub {
@@ -1225,7 +1226,7 @@ footer h5 {
 /* ── RESPONSIVE: LARGE DESKTOP (≥1400px) ── */
 @media (min-width: 1400px) {
     .hero-title {
-        font-size: 4.2rem;
+        font-size: 3.5rem;
     }
 
     .plane-scene {
@@ -2252,7 +2253,7 @@ footer h5 {
 }
 
 .plane-img {
-    animation: planeFloat 3.2s ease-in-out infinite;
+    animation: planeFloatFlipped 3.2s ease-in-out infinite;
     filter: drop-shadow(2px 4px 6px black) drop-shadow(0 15px 30px rgba(0, 0, 0, 0.15));
     transition: filter 0.3s ease;
     max-width: 100%;
@@ -2285,7 +2286,7 @@ footer h5 {
 /* Scroll-reveal base state */
 .reveal {
     opacity: 0;
-    transform: translateY(40px);
+    transform: translateY(45px);
     transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
