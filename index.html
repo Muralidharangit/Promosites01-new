@@ -15,36 +15,32 @@
 <body>
 
     <!-- URGENCY TOP BAR -->
-    <div class="urgency-bar" id="urgencyBar">
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap">
-                <span class="urgency-dot"></span>
-                <span><strong>Limited Partner Slots Available</strong> — We only onboard select operators each month. <a href="https://wa.me/447578630322" target="_blank" class="urgency-link">Secure your slot now →</a></span>
-                <button class="urgency-close" onclick="document.getElementById('urgencyBar').style.display='none'" aria-label="Close"><i class="fas fa-times"></i></button>
-            </div>
-        </div>
-    </div>
+
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#home">✈ AVIAT<span>OR</span></a>
             <div class="d-flex align-items-center gap-2 ms-auto d-lg-none">
-                <a href="https://wa.me/447578630322" target="_blank" class="nav-wa-mobile" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <a href="https://wa.me/447578630322" target="_blank" class="nav-wa-mobile" aria-label="WhatsApp"><i
+                        class="fab fa-whatsapp"></i></a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navMenu">
                     <span style="color:var(--orange)"><i class="fas fa-bars"></i></span>
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto align-items-center gap-2">
-                    <li class="nav-item"><a class="nav-link" href="#demo">Live Demo</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#demo">Live Demo</a></li>
                     <li class="nav-item"><a class="nav-link" href="#why">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="#proposal">Proposal</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li> -->
                 </ul>
                 <div class="d-flex align-items-center gap-2 ms-3">
-                    <a href="https://wa.me/447578630322" target="_blank" class="btn-nav-wa"><i class="fab fa-whatsapp me-1"></i> WhatsApp Us</a>
-                    <a href="https://aviatorgamesstaging.syscorp.in/" target="_blank" class="nav-cta"><i class="fas fa-eye me-1"></i> Live Demo</a>
+                    <a href="https://wa.me/447578630322" target="_blank" class="btn-nav-wa"><i
+                            class="fab fa-whatsapp me-1"></i> WhatsApp Us</a>
+                    <a href="https://aviatorgamesstaging.syscorp.in/" target="_blank" class="nav-cta"><i
+                            class="fas fa-eye me-1"></i> Live Demo</a>
                 </div>
             </div>
         </div>
@@ -52,14 +48,42 @@
 
     <!-- HERO -->
     <section class="hero" id="home">
-        <div class="container">
+
+        <!-- ═══ HERO DECORATIVE BACKGROUND ═══ -->
+        <div class="hero-bg-layer" aria-hidden="true">
+            <!-- Glowing orbs -->
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <!-- Floating geometric rings -->
+            <div class="hero-ring hero-ring-1"></div>
+            <div class="hero-ring hero-ring-2"></div>
+            <!-- Diagonal accent lines -->
+            <div class="hero-line hero-line-1"></div>
+            <div class="hero-line hero-line-2"></div>
+            <div class="hero-line hero-line-3"></div>
+            <!-- Floating particles -->
+            <div class="hero-particle p1"></div>
+            <div class="hero-particle p2"></div>
+            <div class="hero-particle p3"></div>
+            <div class="hero-particle p4"></div>
+            <div class="hero-particle p5"></div>
+            <div class="hero-particle p6"></div>
+            <!-- Floating icon badges -->
+            <!-- <div class="hero-float-icon fi-1"><i class="fas fa-plane-departure"></i></div>
+            <div class="hero-float-icon fi-2"><i class="fas fa-percent"></i></div>
+            <div class="hero-float-icon fi-3"><i class="fas fa-chart-line"></i></div>
+            <div class="hero-float-icon fi-4"><i class="fas fa-shield-halved"></i></div> -->
+        </div>
+
+        <div class="container" style="position:relative; z-index:2;">
             <div class="row align-items-center g-4 g-lg-5 py-4 py-lg-5" style="min-height:calc(100vh - 80px)">
                 <div class="col-lg-6 col-12  text-start text-md-start text-center order-2 order-lg-1 m-0">
                     <!-- Urgency Notice -->
-                  
+
                     <div class="hero-badge"><span class="dot"></span> Official Authorized Theme Seller</div>
-                    <h1 class="hero-title mb-3">Integrate the World's <span class="highlight">#1 Crash Game</span> Into
-                        Your Platform</h1>
+                    <h1 class="hero-title mb-3">Launch Your Aviator Platform with <br class="d-none d-md-inline"><span
+                            class="highlight" id="typed-text">Easy Integration</span><span class="cursor">|</span></h1>
                     <p class="hero-sub mb-4">Launch your custom gaming platform quickly. Buy our premium, responsive
                         turn-key theme fully integrated with SPRIBE Aviator. Deliver an exciting, provably fair gaming
                         experience that maximizes your platform's earning potential.</p>
@@ -70,7 +94,7 @@
                         <li><i class="fas fa-mobile-screen-button"></i> Mobile &amp; Desktop Ready Layout</li>
                     </ul>
                     <!-- Social proof micro-copy -->
-                  
+
                     <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
                         <a href="https://wa.me/447578630322" target="_blank" class="btn-primary-cta btn-hero-wa"><i
                                 class="fab fa-whatsapp"></i> Get Pricing on WhatsApp</a>
@@ -84,71 +108,12 @@
                         <span><i class="fas fa-clock"></i> 2-Hour Setup</span>
                     </div>
                 </div>
+                <!-- banner images -->
                 <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center order-1 order-lg-2">
-                    <div class="plane-scene" style="position:relative;">
-                        <!-- Animated Plane SVG -->
-                        <svg class="plane-svg w-100" viewBox="0 0 480 300" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="0%">
-                                    <stop offset="0%" stop-color="#ff9f43" />
-                                    <stop offset="100%" stop-color="#ff5252" />
-                                </linearGradient>
-                                <linearGradient id="chart-area-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" stop-color="rgba(255, 82, 82, 0.22)" />
-                                    <stop offset="100%" stop-color="rgba(255, 106, 0, 0)" />
-                                </linearGradient>
-                                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-                                    <feGaussianBlur stdDeviation="5" result="blur" />
-                                    <feMerge>
-                                        <feMergeNode in="blur" />
-                                        <feMergeNode in="SourceGraphic" />
-                                    </feMerge>
-                                </filter>
-                            </defs>
-                            
-                            <!-- High-tech radar chart grid -->
-                            <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
-                                <line x1="30" y1="60" x2="450" y2="60" />
-                                <line x1="30" y1="110" x2="450" y2="110" />
-                                <line x1="30" y1="160" x2="450" y2="160" />
-                                <line x1="30" y1="210" x2="450" y2="210" />
-                                <line x1="30" y1="260" x2="450" y2="260" />
-                                
-                                <line x1="100" y1="30" x2="100" y2="270" />
-                                <line x1="170" y1="30" x2="170" y2="270" />
-                                <line x1="240" y1="30" x2="240" y2="270" />
-                                <line x1="310" y1="30" x2="310" y2="270" />
-                                <line x1="380" y1="30" x2="380" y2="270" />
-                            </g>
-
-                            <!-- Gradient area fill under curve -->
-                            <path d="M30,270 L100,240 L170,210 L240,175 L310,140 L370,100 L370,270 Z" fill="url(#chart-area-grad)" style="animation: fadeUp .8s ease both;" />
-
-                            <!-- Glowing flight line -->
-                            <polyline points="30,270 100,240 170,210 240,175 310,140 370,100" stroke="url(#pg)"
-                                stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="600" filter="url(#glow)"
-                                style="animation:lineGrow 2s ease forwards" />
-                            
-                            <!-- Plane body (bn.png) - Centered and horizontally flipped to face right -->
-                            <image href="bn.png" x="50" y="-100" width="400" height="400" style="transform: scaleX(-1); transform-origin: center; transform-box: fill-box;" />
-
-                            <!-- Glowing tip target dot -->
-                            <circle cx="370" cy="100" r="7" fill="#ff5252" filter="url(#glow)" style="animation:glowPulse 2s infinite" />
-                            
-                            <!-- Pulsing radar waves from plane tip -->
-                            <circle class="pulsing-wave" cx="370" cy="100" r="6" stroke="#ff5252" stroke-width="1.5" fill="none" />
-                            <circle class="pulsing-wave" cx="370" cy="100" r="6" stroke="#ff9f43" stroke-width="1" fill="none" style="animation-delay: 1s;" />
-                            
-                            <!-- Dots on line -->
-                            <circle class="pulsing-dot pulsing-dot-1" cx="100" cy="240" r="4" fill="#ff9f43" />
-                            <circle class="pulsing-dot pulsing-dot-2" cx="170" cy="210" r="4" fill="#ff9f43" />
-                            <circle class="pulsing-dot pulsing-dot-3" cx="240" cy="175" r="4" fill="#ff9f43" />
-                            <circle class="pulsing-dot pulsing-dot-4" cx="310" cy="140" r="4" fill="#ff9f43" />
-                        </svg>
+                    <div class="plane-scene text-center" style="position:relative;">
+                        <img src="bn.png" class="plane-img img-fluid" alt="Aviator Plane" />
                         <!-- <div class="multiplier-badge m1">2.35x</div> -->
-                        <div class="multiplier-badge m2">97x 🚀</div>
-                        <div class="multiplier-badge m3">12.45x</div>
+
                     </div>
                 </div>
             </div>
@@ -160,25 +125,29 @@
         <div class="container">
             <div class="row g-3 text-center justify-content-center">
                 <div class="col-6 col-md-3">
-                    <div class="stat-pill">
+                    <div class="stat-pill reveal reveal-delay-1">
+                        <div class="stat-icon"><i class="fas fa-percent"></i></div>
                         <div class="stat-num">97%</div>
                         <div class="stat-label">Max RTP</div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="stat-pill">
-                        <div class="stat-num">&lt;2 hrs</div>
+                    <div class="stat-pill reveal reveal-delay-2">
+                        <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                        <div class="stat-num">2 hrs</div>
                         <div class="stat-label">Setup Time</div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="stat-pill">
+                    <div class="stat-pill reveal reveal-delay-3">
+                        <div class="stat-icon"><i class="fas fa-globe"></i></div>
                         <div class="stat-num">30+</div>
                         <div class="stat-label">Countries Served</div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="stat-pill">
+                    <div class="stat-pill reveal reveal-delay-4">
+                        <div class="stat-icon"><i class="fas fa-trophy"></i></div>
                         <div class="stat-num">#1</div>
                         <div class="stat-label">Crash Game Globally</div>
                     </div>
@@ -188,16 +157,16 @@
     </section>
 
     <!-- B2B BUSINESS PROPOSAL DOCUMENT SECTION -->
-    <section class="section-pad" id="proposal">
+    <section class="section-pad bg-light-gray" id="proposal">
         <div class="container">
-            <div class="text-center mb-5">
-                <span class="section-tag">Partnership Proposal</span>
-                <h2 class="section-title">Official <span>Business Proposal</span></h2>
+            <div class="text-center mb-5 reveal">
+                <span class="section-tag"><i class="fas fa-file-contract me-1"></i> Partnership Proposal</span>
+                <h2 class="section-title mt-2">Official <span>Business Proposal</span></h2>
                 <p class="section-sub mt-3 mx-auto">Review our authorized distributor business framework built for
                     high-scale operators.</p>
             </div>
 
-            <div class="proposal-document-wrapper text-start">
+            <div class="proposal-document-wrapper text-start reveal">
                 <!-- Proposal Header: Dark Blue/Navy -->
                 <div class="proposal-doc-header">
                     <div class="proposal-doc-logo">SPRIBE <span>AVIATOR</span></div>
@@ -441,12 +410,12 @@
     </section>
 
     <!-- LIVE DEMO & STAGING CALLOUT -->
-    <section class="section-pad bg-dark2" id="demo">
+    <section class="section-pad" id="demo">
         <div class="container">
             <div class="row align-items-center g-5">
-                <div class="col-lg-5 text-start">
-                    <span class="section-tag">Staging Environment</span>
-                    <h2 class="section-title mb-4">Explore the Live <span>Staging Demo</span></h2>
+                <div class="col-lg-5 text-start reveal-left">
+                    <span class="section-tag"><i class="fas fa-desktop me-1"></i> Staging Environment</span>
+                    <h2 class="section-title mb-4 mt-2">Explore the Live <span>Staging Demo</span></h2>
                     <p class="text-muted mb-4" style="line-height:1.9">We have set up an active, fully featured staging
                         environment for you to test our premium Aviator theme. Experience the actual layout, fast
                         loading speeds, responsive scaling across mobile/tablet/desktop, and see why B2B buyers choose
@@ -477,7 +446,7 @@
                     </a>
                 </div>
 
-                <div class="col-lg-7">
+                <div class="col-lg-7 reveal-right">
                     <div class="browser-mock">
                         <div class="browser-bar">
                             <div class="browser-dots">
@@ -501,40 +470,51 @@
                             <!-- Main Content Panel -->
                             <div class="mockup-main">
                                 <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <span class="preview-badge"><i class="fas fa-code me-1"></i> B2B Operator Portal</span>
-                                    <span class="text-success font-monospace" style="font-size:0.75rem"><i
-                                            class="fas fa-circle-nodes pulse-animation me-1"></i> API Live Connection</span>
+                                    <span class="preview-badge"><i class="fas fa-code me-1"></i> B2B Operator
+                                        Portal</span>
+                                    <span class="text-success font-monospace" style="font-size:0.75rem"><span
+                                            class="live-dot"></span> API Live Connection</span>
                                 </div>
-                                
+
                                 <!-- API Key Display -->
                                 <div class="mockup-api-box">
                                     <span>av_live_pk_97x_theme2_spribe</span>
-                                    <span class="text-muted cursor-pointer" onclick="alert('API Key Copied!')"><i class="fas fa-copy"></i></span>
+                                    <span class="text-muted cursor-pointer" onclick="alert('API Key Copied!')"><i
+                                            class="fas fa-copy"></i></span>
                                 </div>
 
                                 <!-- Grid of Stats -->
                                 <div class="row g-2 mb-3">
                                     <div class="col-6">
                                         <div class="mockup-stat-card">
-                                            <div class="text-orange" style="font-size:0.7rem;font-weight:700;text-transform:uppercase">Theme Mobile Score</div>
-                                            <div style="font-size:1.15rem;font-weight:800;">99% <span style="font-size:0.75rem;color:#22c55e">Excellent</span></div>
+                                            <div class="text-orange"
+                                                style="font-size:0.7rem;font-weight:700;text-transform:uppercase">Theme
+                                                Mobile Score</div>
+                                            <div style="font-size:1.15rem;font-weight:800;">99% <span
+                                                    style="font-size:0.75rem;color:#22c55e">Excellent</span></div>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="mockup-stat-card">
-                                            <div class="text-orange" style="font-size:0.7rem;font-weight:700;text-transform:uppercase">Installation Speed</div>
+                                            <div class="text-orange"
+                                                style="font-size:0.7rem;font-weight:700;text-transform:uppercase">
+                                                Installation Speed</div>
                                             <div style="font-size:1.15rem;font-weight:800;">2 Hours</div>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="mockup-stat-card">
-                                            <div class="text-orange" style="font-size:0.7rem;font-weight:700;text-transform:uppercase">Official RTP</div>
+                                            <div class="text-orange"
+                                                style="font-size:0.7rem;font-weight:700;text-transform:uppercase">
+                                                Official RTP</div>
                                             <div style="font-size:1.15rem;font-weight:800;">Up to 97%</div>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="mockup-stat-card">
-                                            <div class="text-orange" style="font-size:0.7rem;font-weight:700;text-transform:uppercase">Commercial License</div>
+                                            <div class="text-orange"
+                                                style="font-size:0.7rem;font-weight:700;text-transform:uppercase">
+                                                Commercial License</div>
                                             <div style="font-size:1.15rem;font-weight:800;">Lifetime Use</div>
                                         </div>
                                     </div>
@@ -542,10 +522,14 @@
 
                                 <!-- Terminal Logs -->
                                 <div class="mockup-log-console">
-                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:10]</span> SYSTEM: Init Spribe Aviator Gateway...</div>
-                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:12]</span> API: Handshake success with aviatorgamesstaging.syscorp.in</div>
-                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:13]</span> WEBHOOK: Channel secured. RTP threshold verification passed (97%).</div>
-                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:15]</span> OPERATOR: Turnkey theme loaded. Theme layout check completed.</div>
+                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:10]</span> SYSTEM:
+                                        Init Spribe Aviator Gateway...</div>
+                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:12]</span> API:
+                                        Handshake success with aviatorgamesstaging.syscorp.in</div>
+                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:13]</span>
+                                        WEBHOOK: Channel secured. RTP threshold verification passed (97%).</div>
+                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:15]</span>
+                                        OPERATOR: Turnkey theme loaded. Theme layout check completed.</div>
                                 </div>
                             </div>
                         </div>
@@ -556,17 +540,17 @@
     </section>
 
     <!-- WHY CHOOSE THE THEME -->
-    <section class="section-pad" id="why">
+    <section class="section-pad bg-light-gray" id="why">
         <div class="container">
-            <div class="text-center mb-5">
-                <span class="section-tag">Theme Features</span>
-                <h2 class="section-title">Why Buyers Choose <span>Our Theme</span></h2>
+            <div class="text-center mb-5 reveal">
+                <span class="section-tag"><i class="fas fa-star me-1"></i> Theme Features</span>
+                <h2 class="section-title mt-2">Why Buyers Choose <span>Our Theme</span></h2>
                 <p class="section-sub mt-3 mx-auto">A ready-to-deploy, high-converting front-end layout designed
                     specifically for iGaming operators.</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start">
+                    <div class="feature-card text-start reveal reveal-delay-1">
                         <div class="feature-icon"><i class="fas fa-rocket"></i></div>
                         <h5>Plug-and-Play Turnkey Setup</h5>
                         <p>Launch your platform instantly. Complete client-side code structure with pre-configured
@@ -574,7 +558,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start">
+                    <div class="feature-card text-start reveal reveal-delay-2">
                         <div class="feature-icon"><i class="fas fa-bolt"></i></div>
                         <h5>Ultra-Fast Loading Speeds</h5>
                         <p>Optimized asset size and lightweight clean scripts guarantee rapid load times, keeping
@@ -582,7 +566,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start">
+                    <div class="feature-card text-start reveal reveal-delay-3">
                         <div class="feature-icon"><i class="fas fa-palette"></i></div>
                         <h5>100% Brandable Design</h5>
                         <p>Easily edit colors, change typography styles, swap logos, and replace promotional banners to
@@ -590,16 +574,16 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start">
-                        <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="feature-card text-start reveal reveal-delay-4">
+                        <div class="feature-icon"><i class="fas fa-mobile-screen-button"></i></div>
                         <h5>Mobile-First UX Optimization</h5>
                         <p>Pixel-perfect responsiveness across phones, tablets, and desktops. Specifically tailored for
                             modern mobile player swipe-and-click behaviors.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start">
-                        <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+                    <div class="feature-card text-start reveal reveal-delay-5">
+                        <div class="feature-icon"><i class="fas fa-code-branch"></i></div>
                         <h5>Zero-Maintenance Overhead</h5>
                         <p>Built using standard clean HTML5, CSS3, and vanilla JS. No bulky backend frameworks or
                             database setups to maintain or keep secure.</p>
@@ -618,11 +602,11 @@
     </section>
 
     <!-- OPERATOR BENEFITS -->
-    <section class="section-pad bg-dark2" id="benefits">
+    <section class="section-pad bg-dark-section" id="benefits">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 text-start">
-                    <span class="section-tag">For Operators</span>
+                <div class="col-lg-6 text-start reveal-left">
+                    <span class="section-tag"><i class="fas fa-briefcase me-1"></i> For Operators</span>
                     <h2 class="section-title mb-4">Operator Business <span>Benefits</span></h2>
                     <div class="benefit-row text-start">
                         <div class="benefit-num">01</div>
@@ -656,7 +640,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-start">
-                    <div class="p-4 rounded-3" style="background:var(--card-bg);border:1px solid var(--border);">
+                    <div class="p-4 rounded-3 reveal reveal-right"
+                        style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,106,0,0.25);">
                         <h5 class="mb-4 text-orange"><i class="fas fa-handshake me-2"></i>Why Partner With Us?</h5>
                         <p class="text-muted mb-4">Unlike aggregators, we provide direct support and official
                             integration assistance for a smoother onboarding experience.</p>
@@ -685,11 +670,12 @@
     <!-- B2B PURCHASE DETAILS SECTION (FULL WIDTH) -->
     <section class="cta-section section-pad" id="contact">
         <div class="container text-center">
-            <div class="mb-5">
-                <span class="section-tag">Purchase Details</span>
-                <h2 class="mt-3 mb-4 text-white">Launch Your Turnkey <span class="text-orange">Aviator Platform</span>
+            <div class="mb-5 reveal">
+                <span class="section-tag"><i class="fas fa-cart-shopping me-1"></i> Purchase Details</span>
+                <h2 class="mt-3 mb-4">Launch Your Turnkey <span class="text-orange">Aviator Platform</span>
                 </h2>
-                <p style="color:#cbd5e1; font-size:1.05rem; line-height:1.8; max-width:700px; margin:0 auto;">Review the
+                <p style="color:var(--text); font-size:1.05rem; line-height:1.8; max-width:700px; margin:0 auto;">Review
+                    the
                     exact components and buying details included in this iGaming turnkey package. Link your credentials
                     directly to staging or contact our experts to initialize deployment.</p>
             </div>
@@ -834,10 +820,10 @@
         // Navbar scroll effect
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
-                nav.style.background = 'rgba(8,8,8,0.98)';
-                nav.style.boxShadow = '0 2px 24px rgba(0,0,0,0.5)';
+                nav.style.background = 'rgba(255, 255, 255, 0.98)';
+                nav.style.boxShadow = '0 2px 24px rgba(15, 23, 42, 0.06)';
             } else {
-                nav.style.background = 'rgba(15,23,42,0.95)';
+                nav.style.background = 'rgba(255, 255, 255, 0.95)';
                 nav.style.boxShadow = 'none';
             }
         });
@@ -846,19 +832,66 @@
         const observer = new IntersectionObserver(entries => {
             entries.forEach(e => {
                 if (e.isIntersecting) {
+                    e.target.classList.add('revealed');
                     e.target.style.opacity = 1;
-                    e.target.style.transform = 'translateY(0)';
+                    e.target.style.transform = 'none';
                     observer.unobserve(e.target);
                 }
             });
-        }, { threshold: 0.1 });
+        }, { threshold: 0.05 });
 
-        document.querySelectorAll('.feature-card, .benefit-row, .stat-pill, .buying-spec-card, .trust-item').forEach(el => {
-            el.style.opacity = 0;
-            el.style.transform = 'translateY(24px)';
-            el.style.transition = 'opacity .5s ease, transform .5s ease';
+        document.querySelectorAll('.feature-card, .benefit-row, .stat-pill, .buying-spec-card, .trust-item, .reveal, .reveal-left, .reveal-right').forEach(el => {
+            if (!el.classList.contains('reveal') && !el.classList.contains('reveal-left') && !el.classList.contains('reveal-right')) {
+                el.style.opacity = 0;
+                el.style.transform = 'translateY(24px)';
+                el.style.transition = 'opacity .5s ease, transform .5s ease';
+            }
             observer.observe(el);
         });
+
+        // --- TYPING ANIMATION FOR HERO BANNER ---
+        const words = [
+            "Easy Integration",
+            "Min Cost / Max Returns",
+            "Attractive ROI",
+            "Excellent RTP 97%",
+            "Attracting Traffic to the Platform"
+        ];
+        let wordIndex = 0;
+        let charIndex = words[0].length;
+        let isDeleting = true;
+        const typedTextElement = document.getElementById('typed-text');
+
+        function type() {
+            if (!typedTextElement) return;
+            const currentWord = words[wordIndex];
+
+            if (isDeleting) {
+                typedTextElement.textContent = currentWord.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typedTextElement.textContent = currentWord.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 40 : 80;
+
+            if (!isDeleting && charIndex === currentWord.length) {
+                typeSpeed = 2200; // Pause at full word
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+                typeSpeed = 400; // Brief pause before typing next word
+            }
+
+            setTimeout(type, typeSpeed);
+        }
+
+        // Start animation loop
+        if (typedTextElement) {
+            setTimeout(type, 2200);
+        }
     </script>
 </body>
 
