@@ -104,15 +104,16 @@ h6 {
 }
 
 .header-logo {
-    max-height: 38px;
+        max-height: 50px;
     width: auto;
     object-fit: contain;
     display: block;
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
     .header-logo {
-        max-height: 30px;
+        max-height: 40px;
     }
 }
 
