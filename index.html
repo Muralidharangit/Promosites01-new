@@ -1,908 +1,1149 @@
-<!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Turnkey Aviator Website Theme &amp; API Integration Partner</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="./fav.png" />
+        <link rel="icon" type="image/png" href="./fav.png" sizes="32x32" />
+        <link rel="shortcut icon" href="./fav.png" />
+        <link rel="apple-touch-icon" href="./fav.png" />
+        <meta
+            name="description"
+            content="Buy the ultimate turnkey Aviator crash game website theme. Fully responsive, officially authorized API integration, 97% RTP, and mobile-ready layout."
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Turnkey Aviator Website Theme & API Integration Partner</title>
-    <!-- Favicon -->
-<link rel="icon" type="image/png" href="./fav.png">
-<link rel="icon" type="image/png" href="./fav.png" sizes="32x32">
-<link rel="shortcut icon" href="./fav.png">
-<link rel="apple-touch-icon" href="./fav.png">
-    <meta name="description"
-        content="Buy the ultimate turnkey Aviator crash game website theme. Fully responsive, officially authorized API integration, 97% RTP, and mobile-ready layout." />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <body>
+        <!-- URGENCY TOP BAR -->
 
-<body>
-
-    <!-- URGENCY TOP BAR -->
-
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand py-0" href="#home">
-                <img src="logo.png" alt="Aviator Logo" class="header-logo" />
-            </a>
-            <div class="d-flex align-items-center gap-2 ms-auto d-lg-none">
-                <a href="https://wa.me/264817789719" target="_blank" class="nav-wa-mobile" aria-label="WhatsApp"><i
-                        class="fab fa-whatsapp"></i></a>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navMenu">
-                    <span style="color:var(--orange)"><i class="fas fa-bars"></i></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navMenu">
-                <ul class="navbar-nav ms-auto align-items-center gap-2">
-                    <!-- <li class="nav-item"><a class="nav-link" href="#demo">Live Demo</a></li>
+        <!-- NAVBAR -->
+        <nav
+            class="navbar navbar-expand-lg fixed-top"
+            id="mainNav"
+            style="top: 0px; background: rgba(255, 255, 255, 0.98); box-shadow: rgba(15, 23, 42, 0.06) 0px 2px 24px"
+        >
+            <div class="container">
+                <a class="navbar-brand py-0" href="#home">
+                    <img src="logo.png" alt="Aviator Logo" class="header-logo" />
+                </a>
+                <div class="d-flex align-items-center gap-2 ms-auto d-lg-none">
+                    <a href="https://wa.me/264817789719?text=Hi%2C%20I%27m%20interested%20in%20your%20Aviator%20API%20Integration.%20Please%20share%20the%20integration%20process%2C%20API%20documentation%2C%20pricing%2C%20and%20setup%20details." target="_blank" class="nav-wa-mobile" aria-label="WhatsApp"
+                        ><i class="fab fa-whatsapp"></i
+                    ></a>
+                    <button
+                        class="navbar-toggler border-0"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navMenu"
+                    >
+                        <span style="color: var(--orange)"><i class="fas fa-bars"></i></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto align-items-center gap-2">
+                        <!-- <li class="nav-item"><a class="nav-link" href="#demo">Live Demo</a></li>
                     <li class="nav-item"><a class="nav-link" href="#why">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="#proposal">Proposal</a></li>
                     <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li> -->
-                </ul>
-                <div class="d-flex align-items-center gap-2 ms-3">
-                    <a href="https://wa.me/264817789719" target="_blank" class="btn-nav-wa"><i
-                            class="fab fa-whatsapp me-1"></i> WhatsApp Us</a>
-                    <a href="https://aviatorgamesstaging.syscorp.in/" target="_blank" class="nav-cta"><i
-                            class="fas fa-eye me-1"></i> Live Demo</a>
+                    </ul>
+                    <div class="d-flex align-items-center gap-2 ms-3">
+                        <a href="https://wa.me/264817789719?text=Hi%2C%20I%27m%20interested%20in%20your%20Aviator%20API%20Integration.%20Please%20share%20the%20integration%20process%2C%20API%20documentation%2C%20pricing%2C%20and%20setup%20details." target="_blank" class="btn-nav-wa"
+                            ><i class="fab fa-whatsapp me-1"></i> WhatsApp Us</a
+                        >
+                        <a href="https://wa.me/264817789719?text=Hi%2C%20I%27m%20interested%20in%20your%20Aviator%20API%20Integration.%20Please%20share%20the%20integration%20process%2C%20API%20documentation%2C%20pricing%2C%20and%20setup%20details." target="_blank" class="nav-cta"
+                            ><i class="fas fa-eye me-1"></i>Get API Access</a
+                        >
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- HERO -->
-    <section class="hero" id="home">
-
-        <!-- ═══ HERO DECORATIVE BACKGROUND ═══ -->
-        <div class="hero-bg-layer" aria-hidden="true">
-            <!-- Glowing orbs -->
-            <div class="hero-orb hero-orb-1"></div>
-            <div class="hero-orb hero-orb-2"></div>
-            <div class="hero-orb hero-orb-3"></div>
-            <!-- Floating geometric rings -->
-            <div class="hero-ring hero-ring-1"></div>
-            <div class="hero-ring hero-ring-2"></div>
-            <!-- Diagonal accent lines -->
-            <div class="hero-line hero-line-1"></div>
-            <div class="hero-line hero-line-2"></div>
-            <div class="hero-line hero-line-3"></div>
-            <!-- Floating particles -->
-            <div class="hero-particle p1"></div>
-            <div class="hero-particle p2"></div>
-            <div class="hero-particle p3"></div>
-            <div class="hero-particle p4"></div>
-            <div class="hero-particle p5"></div>
-            <div class="hero-particle p6"></div>
-            <!-- Floating icon badges -->
-            <!-- <div class="hero-float-icon fi-1"><i class="fas fa-plane-departure"></i></div>
+        <!-- HERO -->
+        <section class="hero" id="home" style="padding-top: 80px">
+            <!-- ═══ HERO DECORATIVE BACKGROUND ═══ -->
+            <div class="hero-bg-layer" aria-hidden="true">
+                <!-- Glowing orbs -->
+                <div class="hero-orb hero-orb-1"></div>
+                <div class="hero-orb hero-orb-2"></div>
+                <div class="hero-orb hero-orb-3"></div>
+                <!-- Floating geometric rings -->
+                <div class="hero-ring hero-ring-1"></div>
+                <div class="hero-ring hero-ring-2"></div>
+                <!-- Diagonal accent lines -->
+                <div class="hero-line hero-line-1"></div>
+                <div class="hero-line hero-line-2"></div>
+                <div class="hero-line hero-line-3"></div>
+                <!-- Floating particles -->
+                <div class="hero-particle p1"></div>
+                <div class="hero-particle p2"></div>
+                <div class="hero-particle p3"></div>
+                <div class="hero-particle p4"></div>
+                <div class="hero-particle p5"></div>
+                <div class="hero-particle p6"></div>
+                <!-- Floating icon badges -->
+                <!-- <div class="hero-float-icon fi-1"><i class="fas fa-plane-departure"></i></div>
             <div class="hero-float-icon fi-2"><i class="fas fa-percent"></i></div>
             <div class="hero-float-icon fi-3"><i class="fas fa-chart-line"></i></div>
             <div class="hero-float-icon fi-4"><i class="fas fa-shield-halved"></i></div> -->
-        </div>
+            </div>
 
-        <div class="container" style="position:relative; z-index:2;">
-            <div class="row align-items-center g-4 g-lg-5 py-4 py-lg-5" style="min-height:calc(100vh - 80px)">
-                <div class="col-lg-6 col-12  text-start text-md-start text-center order-2 order-lg-1 m-0">
-                    <!-- Urgency Notice -->
+            <div class="container" style="position: relative; z-index: 2">
+                <div class="row align-items-center g-4 g-lg-5 py-4 py-lg-5" style="min-height: calc(100vh - 80px)">
+                    <div class="col-lg-6 col-12 text-start text-md-start text-center order-2 order-lg-1 m-0">
+                        <!-- Urgency Notice -->
 
-                    <div class="hero-badge"><span class="dot"></span> Authorized Distirbubutor for Spribe Aviator API </div>
-                    <h1 class="hero-title mb-3">Launch Your Aviator Platform with <br class=""><span
-                            class="highlight" id="typed-text">Easy Integration</span><span class="cursor">|</span></h1>
-                    <p class="hero-sub mb-4">Launch your custom gaming platform quickly. Buy our premium, responsive
-                        turn-key theme fully integrated with SPRIBE Aviator. Deliver an exciting, provably fair gaming
-                        experience that maximizes your platform's earning potential.</p>
-                    <ul class="hero-checks mb-4">
-                        <li><i class="fas fa-shield-halved"></i> Official Authorized Integration</li>
-                        <li><i class="fas fa-bolt"></i> Fast API &amp; Theme Setup</li>
-                        <li><i class="fas fa-chart-pie"></i> Up to 97% RTP Platform</li>
-                        <li><i class="fas fa-mobile-screen-button"></i> Mobile &amp; Desktop Ready Layout</li>
-                    </ul>
-                    <!-- Social proof micro-copy -->
+                        <div class="hero-badge">
+                            <span class="dot"></span> Authorized Distirbubutor for Spribe Aviator API
+                        </div>
+                        <h1 class="hero-title mb-3">
+                            Launch Your Aviator Platform with <br class="" /><span
+                                class="highlight"
+                                id="typed-text"
+                            ></span
+                            ><span class="cursor">|</span>
+                        </h1>
+                        <p class="hero-sub mb-4">
+                            Launch your custom gaming platform quickly. Buy our premium, responsive turn-key theme fully
+                            integrated with SPRIBE Aviator. Deliver an exciting, provably fair gaming experience that
+                            maximizes your platform's earning potential.
+                        </p>
+                        <ul class="hero-checks mb-4">
+                            <li><i class="fas fa-shield-halved"></i> Official Authorized Integration</li>
+                            <li><i class="fas fa-bolt"></i> Fast API &amp; Theme Setup</li>
+                            <li><i class="fas fa-chart-pie"></i> Up to 97% RTP Platform</li>
+                            <li><i class="fas fa-mobile-screen-button"></i> Mobile &amp; Desktop Ready Layout</li>
+                        </ul>
+                        <!-- Social proof micro-copy -->
 
-                    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
-                        <a href="https://wa.me/264817789719" target="_blank" class="btn-primary-cta btn-hero-wa"><i
-                                class="fab fa-whatsapp"></i> Get Pricing on WhatsApp</a>
-                        <a href="https://aviatorgamesstaging.syscorp.in/" target="_blank" class="btn-outline-cta"><i
-                                class="fas fa-eye"></i> View Live Demo</a>
+                        <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                            <a href="https://wa.me/264817789719?text=Hi%2C%20I%27m%20interested%20in%20your%20Aviator%20API%20Integration.%20Please%20share%20the%20integration%20process%2C%20API%20documentation%2C%20pricing%2C%20and%20setup%20details." target="_blank" class="btn-primary-cta btn-hero-wa"
+                                ><i class="fab fa-whatsapp"></i> Get Pricing on WhatsApp</a
+                            >
+                            <a class="btn-outline-cta" target="_blank" href="https://wa.me/264817789719?text=Hi%2C%20I%27m%20interested%20in%20your%20Aviator%20API%20Integration.%20Please%20share%20the%20integration%20process%2C%20API%20documentation%2C%20pricing%2C%20and%20setup%20details."
+                                ><i class="fas fa-eye"></i>Start Integration</a
+                            >
+                        </div>
+                        <!-- Trust micro-signals -->
+                        <div class="hero-trust-signals mt-4">
+                            <span><i class="fas fa-lock"></i> Secure &amp; Confidential</span>
+                            <span><i class="fas fa-headset"></i> 24/7 Expert Support</span>
+                            <span><i class="fas fa-clock"></i> 2-Hour Setup</span>
+                        </div>
                     </div>
-                    <!-- Trust micro-signals -->
-                    <div class="hero-trust-signals mt-4">
-                        <span><i class="fas fa-lock"></i> Secure &amp; Confidential</span>
-                        <span><i class="fas fa-headset"></i> 24/7 Expert Support</span>
-                        <span><i class="fas fa-clock"></i> 2-Hour Setup</span>
-                    </div>
-                </div>
-                <!-- banner images -->
-                <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center order-1 order-lg-2">
-                    <div class="plane-scene text-center" style="position:relative;">
-                        <img src="bn.png" class="plane-img img-fluid" alt="Aviator Plane" />
-                        <!-- <div class="multiplier-badge m1">2.35x</div> -->
-
+                    <!-- banner images -->
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center order-1 order-lg-2">
+                        <div class="plane-scene text-center" style="position: relative">
+                            <img src="bn.png" class="plane-img img-fluid" alt="Aviator Plane" />
+                            <!-- <div class="multiplier-badge m1">2.35x</div> -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- SOCIAL PROOF STATS STRIP -->
-    <section class="stats-strip">
-        <div class="container">
-            <div class="row g-3 text-center justify-content-center">
-                <div class="col-6 col-md-3">
-                    <div class="stat-pill reveal reveal-delay-1">
-                        <div class="stat-icon"><i class="fas fa-percent"></i></div>
-                        <div class="stat-num">97%</div>
-                        <div class="stat-label">Max RTP</div>
+        <!-- SOCIAL PROOF STATS STRIP -->
+        <section class="stats-strip">
+            <div class="container">
+                <div class="row g-3 text-center justify-content-center">
+                    <div class="col-6 col-md-3">
+                        <div class="stat-pill reveal reveal-delay-1 revealed" style="opacity: 1; transform: none">
+                            <div class="stat-icon"><i class="fas fa-percent"></i></div>
+                            <div class="stat-num">97%</div>
+                            <div class="stat-label">Max RTP</div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-pill reveal reveal-delay-2">
-                        <div class="stat-icon"><i class="fas fa-bolt"></i></div>
-                        <div class="stat-num">2 hrs</div>
-                        <div class="stat-label">Setup Time</div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-pill reveal reveal-delay-2 revealed" style="opacity: 1; transform: none">
+                            <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                            <div class="stat-num">2 hrs</div>
+                            <div class="stat-label">Setup Time</div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-pill reveal reveal-delay-3">
-                        <div class="stat-icon"><i class="fas fa-globe"></i></div>
-                        <div class="stat-num">30+</div>
-                        <div class="stat-label">Countries Served</div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-pill reveal reveal-delay-3 revealed" style="opacity: 1; transform: none">
+                            <div class="stat-icon"><i class="fas fa-globe"></i></div>
+                            <div class="stat-num">30+</div>
+                            <div class="stat-label">Countries Served</div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-pill reveal reveal-delay-4">
-                        <div class="stat-icon"><i class="fas fa-trophy"></i></div>
-                        <div class="stat-num">#1</div>
-                        <div class="stat-label">Crash Game Globally</div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-pill reveal reveal-delay-4 revealed" style="opacity: 1; transform: none">
+                            <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+                            <div class="stat-num">#1</div>
+                            <div class="stat-label">Crash Game Globally</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- B2B BUSINESS PROPOSAL DOCUMENT SECTION -->
-    <section class="section-pad bg-light-gray" id="proposal">
-        <div class="container">
-            <div class="text-center mb-5 reveal">
-                <span class="section-tag"><i class="fas fa-file-contract me-1"></i> Partnership Proposal</span>
-                <h2 class="section-title mt-2">Official <span>Business Proposal</span></h2>
-                <p class="section-sub mt-3 mx-auto">Review our authorized distributor business framework built for
-                    high-scale operators.</p>
-            </div>
+        <!-- B2B BUSINESS PROPOSAL DOCUMENT SECTION -->
+        <section class="section-pad bg-light-gray" id="proposal">
+            <div class="container">
+                <div class="text-center mb-5 reveal revealed" style="opacity: 1; transform: none">
+                    <span class="section-tag"><i class="fas fa-file-contract me-1"></i> Partnership Proposal</span>
+                    <h2 class="section-title mt-2">Official <span>Business Proposal</span></h2>
+                    <p class="section-sub mt-3 mx-auto">
+                        Review our authorized distributor business framework built for high-scale operators.
+                    </p>
+                </div>
 
-            <div class="proposal-document-wrapper text-start reveal">
-                <!-- Proposal Header: Dark Blue/Navy -->
-                <div class="proposal-doc-header">
-                    <div class="proposal-doc-logo">SPRIBE <span>AVIATOR</span></div>
-                    <h3 class="proposal-doc-title">Business Proposal</h3>
-                    <p class="proposal-doc-subtitle">Spribe Aviator Crash Game Integration</p>
-                    <p class="proposal-doc-lead">We propose a strategic partnership to integrate SPRIBE Aviator, the
-                        world's leading crash game, into your platform. This partnership is designed to maximize player
-                        engagement, drive traffic, and generate sustainable revenue.</p>
+                <div class="proposal-document-wrapper text-start reveal revealed" style="opacity: 1; transform: none">
+                    <!-- Proposal Header: Dark Blue/Navy -->
+                    <div class="proposal-doc-header">
+                        <div class="proposal-doc-logo">SPRIBE <span>AVIATOR</span></div>
+                        <h3 class="proposal-doc-title">Business Proposal</h3>
+                        <p class="proposal-doc-subtitle">Spribe Aviator Crash Game Integration</p>
+                        <p class="proposal-doc-lead">
+                            We propose a strategic partnership to integrate SPRIBE Aviator, the world's leading crash
+                            game, into your platform. This partnership is designed to maximize player engagement, drive
+                            traffic, and generate sustainable revenue.
+                        </p>
 
-                    <!-- Red Plane SVG graphic -->
-                    <div class="proposal-doc-plane-graphic">
-                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10,130 L190,130" stroke="rgba(255,255,255,0.1)" stroke-width="1"
-                                stroke-dasharray="3 3" />
-                            <path d="M10,100 L190,100" stroke="rgba(255,255,255,0.1)" stroke-width="1"
-                                stroke-dasharray="3 3" />
-                            <path d="M10,70 L190,70" stroke="rgba(255,255,255,0.1)" stroke-width="1"
-                                stroke-dasharray="3 3" />
-                            <path d="M10,40 L190,40" stroke="rgba(255,255,255,0.1)" stroke-width="1"
-                                stroke-dasharray="3 3" />
-                            <path d="M10,130 Q80,120 120,80 T170,25" stroke="#ef4444" stroke-width="3"
-                                stroke-linecap="round" fill="none" />
-                            <g transform="translate(170,25) rotate(-35) scale(0.18)">
+                        <!-- Red Plane SVG graphic -->
+                        <div class="proposal-doc-plane-graphic">
+                            <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M540,200 C540,200 480,180 430,180 C390,180 340,200 340,200 L180,310 L140,310 L220,200 L100,200 L60,240 L30,240 L60,190 L30,140 L60,140 L100,180 L220,180 L140,70 L180,70 L340,180 C340,180 390,200 430,200 C480,200 540,180 540,180 C560,175 580,185 580,190 C580,195 560,205 540,200 Z"
-                                    fill="#ef4444" />
-                            </g>
-                        </svg>
-                    </div>
-                </div>
-
-                <!-- Badges Bar -->
-                <div class="proposal-doc-badges-bar">
-                    <div class="row text-center g-3">
-                        <div class="col-6 col-md-3">
-                            <div class="proposal-doc-badge-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>No. 1 Crash Game</span>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-3">
-                            <div class="proposal-doc-badge-item">
-                                <i class="fas fa-shield-halved"></i>
-                                <span>Provably Fair Tech</span>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-3">
-                            <div class="proposal-doc-badge-item">
-                                <i class="fas fa-mobile-screen"></i>
-                                <span>Mobile &amp; Desktop</span>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-3">
-                            <div class="proposal-doc-badge-item">
-                                <i class="fas fa-headset"></i>
-                                <span>Dedicated Support</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Body Section -->
-                <div class="proposal-doc-body">
-                    <div class="row g-5">
-                        <!-- Left Column: Exec Summary & Key Benefits -->
-                        <div class="col-lg-6">
-                            <div class="proposal-doc-section-title">
-                                <span>1.</span> Executive Summary
-                            </div>
-                            <p class="text-muted mb-4" style="font-size:0.92rem; line-height:1.7">SPRIBE Aviator is a
-                                provably fair, multiplayer crash game that has become the industry benchmark. Its simple
-                                mechanics, high engagement, and transparent gameplay make it a perfect addition to any
-                                iGaming platform.</p>
-
-                            <div class="proposal-doc-section-title">
-                                <span>2.</span> Key Benefits
-                            </div>
-                            <div class="d-flex flex-column gap-2 mb-4">
-                                <div class="proposal-benefit-item">
-                                    <div class="proposal-benefit-icon"><i class="fas fa-puzzle-piece"></i></div>
-                                    <div>
-                                        <h6>Easy Integration</h6>
-                                        <p>Simple &amp; Fast API Integration setup with clean documentation.</p>
-                                    </div>
-                                </div>
-                                <div class="proposal-benefit-item">
-                                    <div class="proposal-benefit-icon"><i class="fas fa-dollar-sign"></i></div>
-                                    <div>
-                                        <h6>Min Cost / Max Returns</h6>
-                                        <p>Low integration cost combined with high player lifetime value.</p>
-                                    </div>
-                                </div>
-                                <div class="proposal-benefit-item">
-                                    <div class="proposal-benefit-icon"><i class="fas fa-chart-line"></i></div>
-                                    <div>
-                                        <h6>Attractive ROI</h6>
-                                        <p>Strong ROI trajectory supported by sustained multiplayer activity.</p>
-                                    </div>
-                                </div>
-                                <div class="proposal-benefit-item">
-                                    <div class="proposal-benefit-icon"><i class="fas fa-percent"></i></div>
-                                    <div>
-                                        <h6>Excellent RTP 97%</h6>
-                                        <p>Optimal return-to-player threshold ensures long term brand trust.</p>
-                                    </div>
-                                </div>
-                                <div class="proposal-benefit-item">
-                                    <div class="proposal-benefit-icon"><i class="fas fa-users"></i></div>
-                                    <div>
-                                        <h6>Attracting Traffic to the Platform</h6>
-                                        <p>Builds a viral hook, pulling players through community engagement.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Right Column: Product Overview & Commercial Terms -->
-                        <div class="col-lg-6">
-                            <div class="proposal-doc-section-title">
-                                <span>3.</span> Product Overview
-                            </div>
-                            <p class="text-muted mb-4" style="font-size:0.92rem; line-height:1.7">Aviator is a
-                                fast-paced crash game where players cash out before the plane flies away. It combines
-                                transparency, excitement, and social interaction to deliver exceptional player
-                                retention.</p>
-
-                            <div class="row g-3 mb-4">
-                                <div class="col-6 col-sm-3 col-lg-6">
-                                    <div class="proposal-product-pill">
-                                        <i class="fas fa-plane-departure"></i>
-                                        <div>Fast Play</div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-sm-3 col-lg-6">
-                                    <div class="proposal-product-pill">
-                                        <i class="fas fa-chart-simple"></i>
-                                        <div>Multipliers</div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-sm-3 col-lg-6">
-                                    <div class="proposal-product-pill">
-                                        <i class="fas fa-shield-halved"></i>
-                                        <div>Fair Tech</div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-sm-3 col-lg-6">
-                                    <div class="proposal-product-pill">
-                                        <i class="fas fa-comments"></i>
-                                        <div>Social Chat</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="proposal-doc-section-title">
-                                <span>4.</span> Commercial Terms
-                            </div>
-                            <table class="proposal-doc-table mb-4">
-                                <tr>
-                                    <td class="label-col">Setup Charges</td>
-                                    <td class="value-col">Attractive &amp; Competitive</td>
-                                </tr>
-                                <tr>
-                                    <td class="label-col">Revenue Share</td>
-                                    <td class="value-col">Attractive ROI Model</td>
-                                </tr>
-                                <tr>
-                                    <td class="label-col">RTP</td>
-                                    <td class="value-col">Up to 97%</td>
-                                </tr>
-                                <tr>
-                                    <td class="label-col">Partnership</td>
-                                    <td class="value-col">Authorized Distributors (Not Aggregators)</td>
-                                </tr>
-                                <tr>
-                                    <td class="label-col">Support</td>
-                                    <td class="value-col">Dedicated Technical Support</td>
-                                </tr>
-                            </table>
+                                    d="M10,130 L190,130"
+                                    stroke="rgba(255,255,255,0.1)"
+                                    stroke-width="1"
+                                    stroke-dasharray="3 3"
+                                ></path>
+                                <path
+                                    d="M10,100 L190,100"
+                                    stroke="rgba(255,255,255,0.1)"
+                                    stroke-width="1"
+                                    stroke-dasharray="3 3"
+                                ></path>
+                                <path
+                                    d="M10,70 L190,70"
+                                    stroke="rgba(255,255,255,0.1)"
+                                    stroke-width="1"
+                                    stroke-dasharray="3 3"
+                                ></path>
+                                <path
+                                    d="M10,40 L190,40"
+                                    stroke="rgba(255,255,255,0.1)"
+                                    stroke-width="1"
+                                    stroke-dasharray="3 3"
+                                ></path>
+                                <path
+                                    d="M10,130 Q80,120 120,80 T170,25"
+                                    stroke="#ef4444"
+                                    stroke-width="3"
+                                    stroke-linecap="round"
+                                    fill="none"
+                                ></path>
+                                <g transform="translate(170,25) rotate(-35) scale(0.18)">
+                                    <path
+                                        d="M540,200 C540,200 480,180 430,180 C390,180 340,200 340,200 L180,310 L140,310 L220,200 L100,200 L60,240 L30,240 L60,190 L30,140 L60,140 L100,180 L220,180 L140,70 L180,70 L340,180 C340,180 390,200 430,200 C480,200 540,180 540,180 C560,175 580,185 580,190 C580,195 560,205 540,200 Z"
+                                        fill="#ef4444"
+                                    ></path>
+                                </g>
+                            </svg>
                         </div>
                     </div>
 
-                    <hr class="my-4" style="border-color:#e5e7eb" />
-
-                    <!-- Bottom Section -->
-                    <div class="row g-4 align-items-center">
-                        <div class="col-lg-4">
-                            <div class="proposal-doc-section-title">
-                                <span>5.</span> Why Partner With Us?
+                    <!-- Badges Bar -->
+                    <div class="proposal-doc-badges-bar">
+                        <div class="row text-center g-3">
+                            <div class="col-6 col-md-3">
+                                <div class="proposal-doc-badge-item">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>No. 1 Crash Game</span>
+                                </div>
                             </div>
-                            <ul class="list-unstyled d-flex flex-column gap-2 text-muted" style="font-size:0.9rem">
-                                <li><i class="fas fa-check text-success me-2"></i> Officially Authorized SPRIBE
-                                    Distributors</li>
-                                <li><i class="fas fa-check text-success me-2"></i> Direct Partnership - Not Aggregators
-                                </li>
-                                <li><i class="fas fa-check text-success me-2"></i> Reliable, Secure &amp; Scalable
-                                    Integration</li>
-                                <li><i class="fas fa-check text-success me-2"></i> Long-Term Business Growth Assistance
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="proposal-doc-section-title">
-                                <span>6.</span> Next Steps
+                            <div class="col-6 col-md-3">
+                                <div class="proposal-doc-badge-item">
+                                    <i class="fas fa-shield-halved"></i>
+                                    <span>Provably Fair Tech</span>
+                                </div>
                             </div>
-                            <div class="proposal-flow-container">
-                                <div class="proposal-flow-node">
-                                    <span class="node-num">01</span>
-                                    <span class="node-text">Discuss</span>
+                            <div class="col-6 col-md-3">
+                                <div class="proposal-doc-badge-item">
+                                    <i class="fas fa-mobile-screen"></i>
+                                    <span>Mobile &amp; Desktop</span>
                                 </div>
-                                <div class="proposal-flow-arrow"><i class="fas fa-chevron-right"></i></div>
-                                <div class="proposal-flow-node">
-                                    <span class="node-num">02</span>
-                                    <span class="node-text">Integrate</span>
-                                </div>
-                                <div class="proposal-flow-arrow"><i class="fas fa-chevron-right"></i></div>
-                                <div class="proposal-flow-node">
-                                    <span class="node-num">03</span>
-                                    <span class="node-text">Test</span>
-                                </div>
-                                <div class="proposal-flow-arrow"><i class="fas fa-chevron-right"></i></div>
-                                <div class="proposal-flow-node">
-                                    <span class="node-num">04</span>
-                                    <span class="node-text">Go Live</span>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="proposal-doc-badge-item">
+                                    <i class="fas fa-headset"></i>
+                                    <span>Dedicated Support</span>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-4">
-                            <div class="proposal-callout-box text-start">
-                                <h5 class="text-uppercase mb-2">Your Growth. Our Solution.</h5>
-                                <p class="mb-0" style="font-size:0.85rem; color:#cbd5e1; line-height:1.5">Let's build a
-                                    successful partnership and take your platform to the next level with SPRIBE Aviator.
+                    <!-- Body Section -->
+                    <div class="proposal-doc-body">
+                        <div class="row g-5">
+                            <!-- Left Column: Exec Summary & Key Benefits -->
+                            <div class="col-lg-6">
+                                <div class="proposal-doc-section-title"><span>1.</span> Executive Summary</div>
+                                <p class="text-muted mb-4" style="font-size: 0.92rem; line-height: 1.7">
+                                    SPRIBE Aviator is a provably fair, multiplayer crash game that has become the
+                                    industry benchmark. Its simple mechanics, high engagement, and transparent gameplay
+                                    make it a perfect addition to any iGaming platform.
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- LIVE DEMO & STAGING CALLOUT -->
-    <section class="section-pad" id="demo">
-        <div class="container">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-5 text-start reveal-left">
-                    <span class="section-tag"><i class="fas fa-desktop me-1"></i> Staging Environment</span>
-                    <h2 class="section-title mb-4 mt-2">Explore the Live <span>Staging Demo</span></h2>
-                    <p class="text-muted mb-4" style="line-height:1.9">We have set up an active, fully featured staging
-                        environment for you to test our premium Aviator theme. Experience the actual layout, fast
-                        loading speeds, responsive scaling across mobile/tablet/desktop, and see why B2B buyers choose
-                        our turnkey theme to start their business.</p>
-
-                    <div class="mb-4">
-                        <div class="d-flex align-items-center gap-3 mb-3">
-                            <span class="badge bg-success p-2"><i class="fas fa-check fs-6"></i></span>
-                            <div>
-                                <h6 class="mb-0">Fully Live Staging URL</h6>
-                                <span class="text-muted" style="font-size:0.88rem">Directly test the full user flow and
-                                    checkout.</span>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center gap-3">
-                            <span class="badge bg-success p-2"><i class="fas fa-check fs-6"></i></span>
-                            <div>
-                                <h6 class="mb-0">No Betting/Gambling Risk</h6>
-                                <span class="text-muted" style="font-size:0.88rem">Clean business portal mock-ups
-                                    designed to secure operator partnerships.</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="https://aviatorgamesstaging.syscorp.in/" target="_blank"
-                        class="btn-primary-cta w-100 justify-content-center py-3">
-                        <i class="fas fa-external-link-alt"></i> Launch Live Staging Site
-                    </a>
-                </div>
-
-                <div class="col-lg-7 reveal-right">
-                    <div class="browser-mock">
-                        <div class="browser-bar">
-                            <div class="browser-dots">
-                                <div class="browser-dot dot-red"></div>
-                                <div class="browser-dot dot-yellow"></div>
-                                <div class="browser-dot dot-green"></div>
-                            </div>
-                            <div class="browser-address">
-                                <i class="fas fa-lock text-success"></i> https://aviatorgamesstaging.syscorp.in/
-                            </div>
-                        </div>
-                        <div class="browser-mockup-layout text-start">
-                            <!-- Sidebar -->
-                            <div class="mockup-sidebar">
-                                <div class="mockup-sidebar-icon active"><i class="fas fa-chart-line"></i></div>
-                                <div class="mockup-sidebar-icon"><i class="fas fa-key"></i></div>
-                                <div class="mockup-sidebar-icon"><i class="fas fa-server"></i></div>
-                                <div class="mockup-sidebar-icon"><i class="fas fa-sliders"></i></div>
-                                <div class="mockup-sidebar-icon"><i class="fas fa-gears"></i></div>
-                            </div>
-                            <!-- Main Content Panel -->
-                            <div class="mockup-main">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <span class="preview-badge"><i class="fas fa-code me-1"></i> B2B Operator
-                                        Portal</span>
-                                    <span class="text-success font-monospace" style="font-size:0.75rem"><span
-                                            class="live-dot"></span> API Live Connection</span>
+                                <div class="proposal-doc-section-title"><span>2.</span> Key Benefits</div>
+                                <div class="d-flex flex-column gap-2 mb-4">
+                                    <div class="proposal-benefit-item">
+                                        <div class="proposal-benefit-icon"><i class="fas fa-puzzle-piece"></i></div>
+                                        <div>
+                                            <h6>Easy Integration</h6>
+                                            <p>Simple &amp; Fast API Integration setup with clean documentation.</p>
+                                        </div>
+                                    </div>
+                                    <div class="proposal-benefit-item">
+                                        <div class="proposal-benefit-icon"><i class="fas fa-dollar-sign"></i></div>
+                                        <div>
+                                            <h6>Min Cost / Max Returns</h6>
+                                            <p>Low integration cost combined with high player lifetime value.</p>
+                                        </div>
+                                    </div>
+                                    <div class="proposal-benefit-item">
+                                        <div class="proposal-benefit-icon"><i class="fas fa-chart-line"></i></div>
+                                        <div>
+                                            <h6>Attractive ROI</h6>
+                                            <p>Strong ROI trajectory supported by sustained multiplayer activity.</p>
+                                        </div>
+                                    </div>
+                                    <div class="proposal-benefit-item">
+                                        <div class="proposal-benefit-icon"><i class="fas fa-percent"></i></div>
+                                        <div>
+                                            <h6>Excellent RTP 97%</h6>
+                                            <p>Optimal return-to-player threshold ensures long term brand trust.</p>
+                                        </div>
+                                    </div>
+                                    <div class="proposal-benefit-item">
+                                        <div class="proposal-benefit-icon"><i class="fas fa-users"></i></div>
+                                        <div>
+                                            <h6>Attracting Traffic to the Platform</h6>
+                                            <p>Builds a viral hook, pulling players through community engagement.</p>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
 
-                                <!-- API Key Display -->
-                                <div class="mockup-api-box">
-                                    <span>av_live_pk_97x_theme2_spribe</span>
-                                    <span class="text-muted cursor-pointer" onclick="alert('API Key Copied!')"><i
-                                            class="fas fa-copy"></i></span>
-                                </div>
+                            <!-- Right Column: Product Overview & Commercial Terms -->
+                            <div class="col-lg-6">
+                                <div class="proposal-doc-section-title"><span>3.</span> Product Overview</div>
+                                <p class="text-muted mb-4" style="font-size: 0.92rem; line-height: 1.7">
+                                    Aviator is a fast-paced crash game where players cash out before the plane flies
+                                    away. It combines transparency, excitement, and social interaction to deliver
+                                    exceptional player retention.
+                                </p>
 
-                                <!-- Grid of Stats -->
-                                <div class="row g-2 mb-3">
-                                    <div class="col-6">
-                                        <div class="mockup-stat-card">
-                                            <div class="text-orange"
-                                                style="font-size:0.7rem;font-weight:700;text-transform:uppercase">Theme
-                                                Mobile Score</div>
-                                            <div style="font-size:1.15rem;font-weight:800;">99% <span
-                                                    style="font-size:0.75rem;color:#22c55e">Excellent</span></div>
+                                <div class="row g-3 mb-4">
+                                    <div class="col-6 col-sm-3 col-lg-6">
+                                        <div class="proposal-product-pill">
+                                            <i class="fas fa-plane-departure"></i>
+                                            <div>Fast Play</div>
                                         </div>
                                     </div>
-                                    <div class="col-6">
-                                        <div class="mockup-stat-card">
-                                            <div class="text-orange"
-                                                style="font-size:0.7rem;font-weight:700;text-transform:uppercase">
-                                                Installation Speed</div>
-                                            <div style="font-size:1.15rem;font-weight:800;">2 Hours</div>
+                                    <div class="col-6 col-sm-3 col-lg-6">
+                                        <div class="proposal-product-pill">
+                                            <i class="fas fa-chart-simple"></i>
+                                            <div>Multipliers</div>
                                         </div>
                                     </div>
-                                    <div class="col-6">
-                                        <div class="mockup-stat-card">
-                                            <div class="text-orange"
-                                                style="font-size:0.7rem;font-weight:700;text-transform:uppercase">
-                                                Official RTP</div>
-                                            <div style="font-size:1.15rem;font-weight:800;">Up to 97%</div>
+                                    <div class="col-6 col-sm-3 col-lg-6">
+                                        <div class="proposal-product-pill">
+                                            <i class="fas fa-shield-halved"></i>
+                                            <div>Fair Tech</div>
                                         </div>
                                     </div>
-                                    <div class="col-6">
-                                        <div class="mockup-stat-card">
-                                            <div class="text-orange"
-                                                style="font-size:0.7rem;font-weight:700;text-transform:uppercase">
-                                                Commercial License</div>
-                                            <div style="font-size:1.15rem;font-weight:800;">Lifetime Use</div>
+                                    <div class="col-6 col-sm-3 col-lg-6">
+                                        <div class="proposal-product-pill">
+                                            <i class="fas fa-comments"></i>
+                                            <div>Social Chat</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <!-- Terminal Logs -->
-                                <div class="mockup-log-console">
-                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:10]</span> SYSTEM:
-                                        Init Spribe Aviator Gateway...</div>
-                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:12]</span> API:
-                                        Handshake success with aviatorgamesstaging.syscorp.in</div>
-                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:13]</span>
-                                        WEBHOOK: Channel secured. RTP threshold verification passed (97%).</div>
-                                    <div class="mockup-log-line"><span class="mockup-log-time">[14:52:15]</span>
-                                        OPERATOR: Turnkey theme loaded. Theme layout check completed.</div>
+                                <div class="proposal-doc-section-title"><span>4.</span> Commercial Terms</div>
+                                <table class="proposal-doc-table mb-4">
+                                    <tbody>
+                                        <tr>
+                                            <td class="label-col">Setup Charges</td>
+                                            <td class="value-col">Attractive &amp; Competitive</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="label-col">Revenue Share</td>
+                                            <td class="value-col">Attractive ROI Model</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="label-col">RTP</td>
+                                            <td class="value-col">Up to 97%</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="label-col">Partnership</td>
+                                            <td class="value-col">Authorized Distributors (Not Aggregators)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="label-col">Support</td>
+                                            <td class="value-col">Dedicated Technical Support</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <hr class="my-4" style="border-color: #e5e7eb" />
+
+                        <!-- Bottom Section -->
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-4">
+                                <div class="proposal-doc-section-title"><span>5.</span> Why Partner With Us?</div>
+                                <ul class="list-unstyled d-flex flex-column gap-2 text-muted" style="font-size: 0.9rem">
+                                    <li>
+                                        <i class="fas fa-check text-success me-2"></i> Officially Authorized SPRIBE
+                                        Distributors
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check text-success me-2"></i> Direct Partnership - Not
+                                        Aggregators
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check text-success me-2"></i> Reliable, Secure &amp; Scalable
+                                        Integration
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check text-success me-2"></i> Long-Term Business Growth
+                                        Assistance
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="proposal-doc-section-title"><span>6.</span> Next Steps</div>
+                                <div class="proposal-flow-container">
+                                    <div class="proposal-flow-node">
+                                        <span class="node-num">01</span>
+                                        <span class="node-text">Discuss</span>
+                                    </div>
+                                    <div class="proposal-flow-arrow"><i class="fas fa-chevron-right"></i></div>
+                                    <div class="proposal-flow-node">
+                                        <span class="node-num">02</span>
+                                        <span class="node-text">Integrate</span>
+                                    </div>
+                                    <div class="proposal-flow-arrow"><i class="fas fa-chevron-right"></i></div>
+                                    <div class="proposal-flow-node">
+                                        <span class="node-num">03</span>
+                                        <span class="node-text">Test</span>
+                                    </div>
+                                    <div class="proposal-flow-arrow"><i class="fas fa-chevron-right"></i></div>
+                                    <div class="proposal-flow-node">
+                                        <span class="node-num">04</span>
+                                        <span class="node-text">Go Live</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="proposal-callout-box text-start">
+                                    <h5 class="text-uppercase mb-2">Your Growth. Our Solution.</h5>
+                                    <p class="mb-0" style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.5">
+                                        Let's build a successful partnership and take your platform to the next level
+                                        with SPRIBE Aviator.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- WHY CHOOSE THE THEME -->
-    <section class="section-pad bg-light-gray" id="why">
-        <div class="container">
-            <div class="text-center mb-5 reveal">
-                <span class="section-tag"><i class="fas fa-star me-1"></i> Theme Features</span>
-                <h2 class="section-title mt-2">Why Buyers Choose <span>Our Theme</span></h2>
-                <p class="section-sub mt-3 mx-auto">A ready-to-deploy, high-converting front-end layout designed
-                    specifically for iGaming operators.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start reveal reveal-delay-1">
-                        <div class="feature-icon"><i class="fas fa-rocket"></i></div>
-                        <h5>Plug-and-Play Turnkey Setup</h5>
-                        <p>Launch your platform instantly. Complete client-side code structure with pre-configured
-                            pathways, ready for deployment on any web server.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start reveal reveal-delay-2">
-                        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
-                        <h5>Ultra-Fast Loading Speeds</h5>
-                        <p>Optimized asset size and lightweight clean scripts guarantee rapid load times, keeping
-                            players engaged and lowering bounce rates.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start reveal reveal-delay-3">
-                        <div class="feature-icon"><i class="fas fa-palette"></i></div>
-                        <h5>100% Brandable Design</h5>
-                        <p>Easily edit colors, change typography styles, swap logos, and replace promotional banners to
-                            reflect your own corporate gaming identity.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start reveal reveal-delay-4">
-                        <div class="feature-icon"><i class="fas fa-mobile-screen-button"></i></div>
-                        <h5>Mobile-First UX Optimization</h5>
-                        <p>Pixel-perfect responsiveness across phones, tablets, and desktops. Specifically tailored for
-                            modern mobile player swipe-and-click behaviors.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start reveal reveal-delay-5">
-                        <div class="feature-icon"><i class="fas fa-code-branch"></i></div>
-                        <h5>Zero-Maintenance Overhead</h5>
-                        <p>Built using standard clean HTML5, CSS3, and vanilla JS. No bulky backend frameworks or
-                            database setups to maintain or keep secure.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="feature-card text-start">
-                        <div class="feature-icon"><i class="fas fa-circle-question"></i></div>
-                        <h5>Deployment & Setup Support</h5>
-                        <p>Receive comprehensive documentation and support linking the turnkey layout to your active
-                            SPRIBE Aviator API credentials.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- LIVE DEMO & STAGING CALLOUT -->
+        <section class="section-pad" id="demo">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5 text-start reveal-left revealed" style="opacity: 1; transform: none">
+                        <span class="section-tag"><i class="fas fa-desktop me-1"></i> Staging Environment</span>
+                        <h2 class="section-title mb-4 mt-2">Explore the Live <span>Staging Demo</span></h2>
+                        <p class="text-muted mb-4" style="line-height: 1.9">
+                            We have set up an active, fully featured staging environment for you to test our premium
+                            Aviator theme. Experience the actual layout, fast loading speeds, responsive scaling across
+                            mobile/tablet/desktop, and see why B2B buyers choose our turnkey theme to start their
+                            business.
+                        </p>
 
-    <!-- OPERATOR BENEFITS -->
-    <section class="section-pad bg-dark-section" id="benefits">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 text-start reveal-left">
-                    <span class="section-tag"><i class="fas fa-briefcase me-1"></i> For Operators</span>
-                    <h2 class="section-title mb-4">Operator Business <span>Benefits</span></h2>
-                    <div class="benefit-row text-start">
-                        <div class="benefit-num">01</div>
-                        <div><strong>Increase Player Retention</strong><br /><span class="text-muted"
-                                style="font-size:.92rem">Aviator encourages frequent gameplay with quick rounds and
-                                exciting multipliers.</span></div>
-                    </div>
-                    <div class="benefit-row text-start">
-                        <div class="benefit-num">02</div>
-                        <div><strong>Higher Platform Revenue</strong><br /><span class="text-muted"
-                                style="font-size:.92rem">Generate consistent revenue through one of the industry's most
-                                profitable crash games.</span></div>
-                    </div>
-                    <div class="benefit-row text-start">
-                        <div class="benefit-num">03</div>
-                        <div><strong>Easy Integration</strong><br /><span class="text-muted"
-                                style="font-size:.92rem">Developer-friendly APIs significantly reduce implementation
-                                time and cost.</span></div>
-                    </div>
-                    <div class="benefit-row text-start">
-                        <div class="benefit-num">04</div>
-                        <div><strong>Low Maintenance</strong><br /><span class="text-muted"
-                                style="font-size:.92rem">Stable infrastructure with ongoing technical support
-                                included.</span></div>
-                    </div>
-                    <div class="benefit-row text-start">
-                        <div class="benefit-num">05</div>
-                        <div><strong>Global Popularity</strong><br /><span class="text-muted"
-                                style="font-size:.92rem">Trusted by operators and enjoyed by millions of players
-                                worldwide.</span></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-start">
-                    <div class="p-4 rounded-3 reveal reveal-right"
-                        style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,106,0,0.25);">
-                        <h5 class="mb-4 text-orange"><i class="fas fa-handshake me-2"></i>Why Partner With Us?</h5>
-                        <p class="text-muted mb-4">Unlike aggregators, we provide direct support and official
-                            integration assistance for a smoother onboarding experience.</p>
-                        <h6 class="mb-3">What You Get</h6>
-                        <div class="get-item"><i class="fas fa-circle-check"></i><span>Official Distribution
-                                Partnership</span></div>
-                        <div class="get-item"><i class="fas fa-circle-check"></i><span>Reliable API Integration</span>
+                        <div class="mb-4">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <span class="badge bg-success p-2"><i class="fas fa-check fs-6"></i></span>
+                                <div>
+                                    <h6 class="mb-0">Fully Live Staging URL</h6>
+                                    <span class="text-muted" style="font-size: 0.88rem"
+                                        >Directly test the full user flow and checkout.</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="badge bg-success p-2"><i class="fas fa-check fs-6"></i></span>
+                                <div>
+                                    <h6 class="mb-0">No Betting/Gambling Risk</h6>
+                                    <span class="text-muted" style="font-size: 0.88rem"
+                                        >Clean business portal mock-ups designed to secure operator partnerships.</span
+                                    >
+                                </div>
+                            </div>
                         </div>
-                        <div class="get-item"><i class="fas fa-circle-check"></i><span>Technical Consultation</span>
+
+                        <a
+                            href="https://aviatorgamesstaging.syscorp.in/"
+                            target="_blank"
+                            class="btn-primary-cta w-100 justify-content-center py-3"
+                        >
+                            <i class="fas fa-external-link-alt"></i> Launch Live Staging Site
+                        </a>
+                    </div>
+
+                    <div class="col-lg-7 reveal-right revealed" style="opacity: 1; transform: none">
+                        <div class="browser-mock">
+                            <div class="browser-bar">
+                                <div class="browser-dots">
+                                    <div class="browser-dot dot-red"></div>
+                                    <div class="browser-dot dot-yellow"></div>
+                                    <div class="browser-dot dot-green"></div>
+                                </div>
+                                <div class="browser-address">
+                                    <i class="fas fa-lock text-success"></i> https://aviatorgamesstaging.syscorp.in/
+                                </div>
+                            </div>
+                            <div class="browser-mockup-layout text-start">
+                                <!-- Sidebar -->
+                                <div class="mockup-sidebar">
+                                    <div class="mockup-sidebar-icon active"><i class="fas fa-chart-line"></i></div>
+                                    <div class="mockup-sidebar-icon"><i class="fas fa-key"></i></div>
+                                    <div class="mockup-sidebar-icon"><i class="fas fa-server"></i></div>
+                                    <div class="mockup-sidebar-icon"><i class="fas fa-sliders"></i></div>
+                                    <div class="mockup-sidebar-icon"><i class="fas fa-gears"></i></div>
+                                </div>
+                                <!-- Main Content Panel -->
+                                <div class="mockup-main">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="preview-badge"
+                                            ><i class="fas fa-code me-1"></i> B2B Operator Portal</span
+                                        >
+                                        <span class="text-success font-monospace" style="font-size: 0.75rem"
+                                            ><span class="live-dot"></span> API Live Connection</span
+                                        >
+                                    </div>
+
+                                    <!-- API Key Display -->
+                                    <div class="mockup-api-box">
+                                        <span>av_live_pk_97x_theme2_spribe</span>
+                                        <span class="text-muted cursor-pointer" onclick="alert('API Key Copied!')"
+                                            ><i class="fas fa-copy"></i
+                                        ></span>
+                                    </div>
+
+                                    <!-- Grid of Stats -->
+                                    <div class="row g-2 mb-3">
+                                        <div class="col-6">
+                                            <div class="mockup-stat-card">
+                                                <div
+                                                    class="text-orange"
+                                                    style="
+                                                        font-size: 0.7rem;
+                                                        font-weight: 700;
+                                                        text-transform: uppercase;
+                                                    "
+                                                >
+                                                    Theme Mobile Score
+                                                </div>
+                                                <div style="font-size: 1.15rem; font-weight: 800">
+                                                    99%
+                                                    <span style="font-size: 0.75rem; color: #22c55e">Excellent</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="mockup-stat-card">
+                                                <div
+                                                    class="text-orange"
+                                                    style="
+                                                        font-size: 0.7rem;
+                                                        font-weight: 700;
+                                                        text-transform: uppercase;
+                                                    "
+                                                >
+                                                    Installation Speed
+                                                </div>
+                                                <div style="font-size: 1.15rem; font-weight: 800">2 Hours</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="mockup-stat-card">
+                                                <div
+                                                    class="text-orange"
+                                                    style="
+                                                        font-size: 0.7rem;
+                                                        font-weight: 700;
+                                                        text-transform: uppercase;
+                                                    "
+                                                >
+                                                    Official RTP
+                                                </div>
+                                                <div style="font-size: 1.15rem; font-weight: 800">Up to 97%</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="mockup-stat-card">
+                                                <div
+                                                    class="text-orange"
+                                                    style="
+                                                        font-size: 0.7rem;
+                                                        font-weight: 700;
+                                                        text-transform: uppercase;
+                                                    "
+                                                >
+                                                    Commercial License
+                                                </div>
+                                                <div style="font-size: 1.15rem; font-weight: 800">Lifetime Use</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Terminal Logs -->
+                                    <div class="mockup-log-console">
+                                        <div class="mockup-log-line">
+                                            <span class="mockup-log-time">[14:52:10]</span> SYSTEM: Init Spribe Aviator
+                                            Gateway...
+                                        </div>
+                                        <div class="mockup-log-line">
+                                            <span class="mockup-log-time">[14:52:12]</span> API: Handshake success with
+                                            aviatorgamesstaging.syscorp.in
+                                        </div>
+                                        <div class="mockup-log-line">
+                                            <span class="mockup-log-time">[14:52:13]</span> WEBHOOK: Channel secured.
+                                            RTP threshold verification passed (97%).
+                                        </div>
+                                        <div class="mockup-log-line">
+                                            <span class="mockup-log-time">[14:52:15]</span> OPERATOR: Turnkey theme
+                                            loaded. Theme layout check completed.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="get-item"><i class="fas fa-circle-check"></i><span>Dedicated Account Manager</span>
-                        </div>
-                        <div class="get-item"><i class="fas fa-circle-check"></i><span>Long-Term Business Support</span>
-                        </div>
-                        <div class="get-item"><i class="fas fa-circle-check"></i><span>Fast Deployment</span></div>
-                        <div class="get-item"><i class="fas fa-circle-check"></i><span>Continuous Platform
-                                Updates</span></div>
-                        <div class="get-item"><i class="fas fa-circle-check"></i><span>Competitive Commercial
-                                Model</span></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- B2B PURCHASE DETAILS SECTION (FULL WIDTH) -->
-    <section class="cta-section section-pad" id="contact">
-        <div class="container text-center">
-            <div class="mb-5 reveal">
-                <span class="section-tag"><i class="fas fa-cart-shopping me-1"></i> Purchase Details</span>
-                <h2 class="mt-3 mb-4">Launch Your Turnkey <span class="text-orange">Aviator Platform</span>
-                </h2>
-                <p style="color:var(--text); font-size:1.05rem; line-height:1.8; max-width:700px; margin:0 auto;">Review
-                    the
-                    exact components and buying details included in this iGaming turnkey package. Link your credentials
-                    directly to staging or contact our experts to initialize deployment.</p>
-            </div>
-
-            <!-- B2B Package Buying Grid -->
-            <div class="b2b-buying-details-grid">
+        <!-- WHY CHOOSE THE THEME -->
+        <section class="section-pad bg-light-gray" id="why">
+            <div class="container">
+                <div class="text-center mb-5 reveal revealed" style="opacity: 1; transform: none">
+                    <span class="section-tag"><i class="fas fa-star me-1"></i> Theme Features</span>
+                    <h2 class="section-title mt-2">Why Buyers Choose <span>Our Theme</span></h2>
+                    <p class="section-sub mt-3 mx-auto">
+                        A ready-to-deploy, high-converting front-end layout designed specifically for iGaming operators.
+                    </p>
+                </div>
                 <div class="row g-4">
-                    <!-- Item 1 -->
-                    <div class="col-md-6 col-lg-3">
-                        <div class="buying-spec-card">
-                            <div class="spec-icon-wrapper">
-                                <i class="fas fa-gamepad"></i>
-                            </div>
-                            <h5>Official SPRIBE API</h5>
-                            <p>Officially authorized distribution. Built-in Provably Fair engine with up to 97%
-                                Return-To-Player (RTP) support.</p>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="feature-card text-start reveal reveal-delay-1 revealed"
+                            style="opacity: 1; transform: none"
+                        >
+                            <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                            <h5>Plug-and-Play Turnkey Setup</h5>
+                            <p>
+                                Launch your platform instantly. Complete client-side code structure with pre-configured
+                                pathways, ready for deployment on any web server.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 2 -->
-                    <div class="col-md-6 col-lg-3">
-                        <div class="buying-spec-card">
-                            <div class="spec-icon-wrapper">
-                                <i class="fas fa-laptop-code"></i>
-                            </div>
-                            <h5>Turnkey Layout</h5>
-                            <p>Fully brandable Bootstrap 5 + JS package. Highly optimized mobile score (99%) with zero
-                                licensing fees.</p>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="feature-card text-start reveal reveal-delay-2 revealed"
+                            style="opacity: 1; transform: none"
+                        >
+                            <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                            <h5>Ultra-Fast Loading Speeds</h5>
+                            <p>
+                                Optimized asset size and lightweight clean scripts guarantee rapid load times, keeping
+                                players engaged and lowering bounce rates.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 3 -->
-                    <div class="col-md-6 col-lg-3">
-                        <div class="buying-spec-card">
-                            <div class="spec-icon-wrapper">
-                                <i class="fas fa-bolt-lightning"></i>
-                            </div>
-                            <h5>Rapid Integration</h5>
-                            <p>API setup completes in less than 2 hours. Full documentation, sandbox environment, and
-                                production keys.</p>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="feature-card text-start reveal reveal-delay-3 revealed"
+                            style="opacity: 1; transform: none"
+                        >
+                            <div class="feature-icon"><i class="fas fa-palette"></i></div>
+                            <h5>100% Brandable Design</h5>
+                            <p>
+                                Easily edit colors, change typography styles, swap logos, and replace promotional
+                                banners to reflect your own corporate gaming identity.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 4 -->
-                    <div class="col-md-6 col-lg-3">
-                        <div class="buying-spec-card">
-                            <div class="spec-icon-wrapper">
-                                <i class="fas fa-shield-halved"></i>
-                            </div>
-                            <h5>Direct SLA Support</h5>
-                            <p>Dedicated tech consultant. 24/7 priority SLA support and long-term maintenance updates.
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="feature-card text-start reveal reveal-delay-4 revealed"
+                            style="opacity: 1; transform: none"
+                        >
+                            <div class="feature-icon"><i class="fas fa-mobile-screen-button"></i></div>
+                            <h5>Mobile-First UX Optimization</h5>
+                            <p>
+                                Pixel-perfect responsiveness across phones, tablets, and desktops. Specifically tailored
+                                for modern mobile player swipe-and-click behaviors.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="feature-card text-start reveal reveal-delay-5 revealed"
+                            style="opacity: 1; transform: none"
+                        >
+                            <div class="feature-icon"><i class="fas fa-code-branch"></i></div>
+                            <h5>Zero-Maintenance Overhead</h5>
+                            <p>
+                                Built using standard clean HTML5, CSS3, and vanilla JS. No bulky backend frameworks or
+                                database setups to maintain or keep secure.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="feature-card text-start revealed"
+                            style="
+                                opacity: 1;
+                                transform: none;
+                                transition:
+                                    opacity 0.5s,
+                                    transform 0.5s;
+                            "
+                        >
+                            <div class="feature-icon"><i class="fas fa-circle-question"></i></div>
+                            <h5>Deployment &amp; Setup Support</h5>
+                            <p>
+                                Receive comprehensive documentation and support linking the turnkey layout to your
+                                active SPRIBE Aviator API credentials.
                             </p>
                         </div>
                     </div>
                 </div>
-
-                <!-- CTA Button inside grid -->
-                <div class="mt-5 text-center">
-                    <a href="https://aviatorgamesstaging.syscorp.in/" target="_blank"
-                        class="btn-primary-cta px-5 py-3 fs-5">
-                        <i class="fas fa-rocket me-2"></i> Launch Turnkey Staging Console
-                    </a>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container text-start">
-            <div class="row g-4">
-                <div class="col-lg-4">
-                    <div class="footer-brand mb-3">✈ AVIATOR </div>
-                    <p style="color:var(--muted);font-size:.9rem;line-height:1.8">Official authorized SPRIBE Aviator API
-                        integration partner. Trusted by leading iGaming operators worldwide.</p>
-                    <div class="mt-3">
-                        <a href="#" class="social-btn"><i class="fab fa-telegram"></i></a>
-                        <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-btn"><i class="fas fa-globe"></i></a>
+        <!-- OPERATOR BENEFITS -->
+        <section class="section-pad bg-dark-section" id="benefits">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 text-start reveal-left revealed" style="opacity: 1; transform: none">
+                        <span class="section-tag"><i class="fas fa-briefcase me-1"></i> For Operators</span>
+                        <h2 class="section-title mb-4">Operator Business <span>Benefits</span></h2>
+                        <div
+                            class="benefit-row text-start revealed"
+                            style="
+                                opacity: 1;
+                                transform: none;
+                                transition:
+                                    opacity 0.5s,
+                                    transform 0.5s;
+                            "
+                        >
+                            <div class="benefit-num">01</div>
+                            <div>
+                                <strong>Increase Player Retention</strong><br /><span
+                                    class="text-muted"
+                                    style="font-size: 0.92rem"
+                                    >Aviator encourages frequent gameplay with quick rounds and exciting
+                                    multipliers.</span
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="benefit-row text-start revealed"
+                            style="
+                                opacity: 1;
+                                transform: none;
+                                transition:
+                                    opacity 0.5s,
+                                    transform 0.5s;
+                            "
+                        >
+                            <div class="benefit-num">02</div>
+                            <div>
+                                <strong>Higher Platform Revenue</strong><br /><span
+                                    class="text-muted"
+                                    style="font-size: 0.92rem"
+                                    >Generate consistent revenue through one of the industry's most profitable crash
+                                    games.</span
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="benefit-row text-start revealed"
+                            style="
+                                opacity: 1;
+                                transform: none;
+                                transition:
+                                    opacity 0.5s,
+                                    transform 0.5s;
+                            "
+                        >
+                            <div class="benefit-num">03</div>
+                            <div>
+                                <strong>Easy Integration</strong><br /><span
+                                    class="text-muted"
+                                    style="font-size: 0.92rem"
+                                    >Developer-friendly APIs significantly reduce implementation time and cost.</span
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="benefit-row text-start revealed"
+                            style="
+                                opacity: 1;
+                                transform: none;
+                                transition:
+                                    opacity 0.5s,
+                                    transform 0.5s;
+                            "
+                        >
+                            <div class="benefit-num">04</div>
+                            <div>
+                                <strong>Low Maintenance</strong><br /><span
+                                    class="text-muted"
+                                    style="font-size: 0.92rem"
+                                    >Stable infrastructure with ongoing technical support included.</span
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="benefit-row text-start revealed"
+                            style="
+                                opacity: 1;
+                                transform: none;
+                                transition:
+                                    opacity 0.5s,
+                                    transform 0.5s;
+                            "
+                        >
+                            <div class="benefit-num">05</div>
+                            <div>
+                                <strong>Global Popularity</strong><br /><span
+                                    class="text-muted"
+                                    style="font-size: 0.92rem"
+                                    >Trusted by operators and enjoyed by millions of players worldwide.</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-start">
+                        <div
+                            class="p-4 rounded-3 reveal reveal-right revealed"
+                            style="
+                                background: rgba(255, 255, 255, 0.04);
+                                border: 1px solid rgba(255, 106, 0, 0.25);
+                                opacity: 1;
+                                transform: none;
+                            "
+                        >
+                            <h5 class="mb-4 text-orange"><i class="fas fa-handshake me-2"></i>Why Partner With Us?</h5>
+                            <p class="text-muted mb-4">
+                                Unlike aggregators, we provide direct support and official integration assistance for a
+                                smoother onboarding experience.
+                            </p>
+                            <h6 class="mb-3">What You Get</h6>
+                            <div class="get-item">
+                                <i class="fas fa-circle-check"></i><span>Official Distribution Partnership</span>
+                            </div>
+                            <div class="get-item">
+                                <i class="fas fa-circle-check"></i><span>Reliable API Integration</span>
+                            </div>
+                            <div class="get-item">
+                                <i class="fas fa-circle-check"></i><span>Technical Consultation</span>
+                            </div>
+                            <div class="get-item">
+                                <i class="fas fa-circle-check"></i><span>Dedicated Account Manager</span>
+                            </div>
+                            <div class="get-item">
+                                <i class="fas fa-circle-check"></i><span>Long-Term Business Support</span>
+                            </div>
+                            <div class="get-item"><i class="fas fa-circle-check"></i><span>Fast Deployment</span></div>
+                            <div class="get-item">
+                                <i class="fas fa-circle-check"></i><span>Continuous Platform Updates</span>
+                            </div>
+                            <div class="get-item">
+                                <i class="fas fa-circle-check"></i><span>Competitive Commercial Model</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-2">
-                    <h6 class="text-orange mb-3">Quick Links</h6>
-                    <a class="footer-link" href="#demo">Staging Demo</a>
-                    <a class="footer-link" href="#why">Theme Features</a>
-                    <a class="footer-link" href="#proposal">Proposal</a>
-                    <a class="footer-link" href="#benefits">Benefits</a>
+            </div>
+        </section>
+
+        <!-- B2B PURCHASE DETAILS SECTION (FULL WIDTH) -->
+        <section class="cta-section section-pad" id="contact">
+            <div class="container text-center">
+                <div class="mb-5 reveal revealed" style="opacity: 1; transform: none">
+                    <span class="section-tag"><i class="fas fa-cart-shopping me-1"></i> Purchase Details</span>
+                    <h2 class="mt-3 mb-4">Launch Your Turnkey <span class="text-orange">Aviator Platform</span></h2>
+                    <p
+                        style="
+                            color: var(--text);
+                            font-size: 1.05rem;
+                            line-height: 1.8;
+                            max-width: 700px;
+                            margin: 0 auto;
+                        "
+                    >
+                        Review the exact components and buying details included in this iGaming turnkey package. Link
+                        your credentials directly to staging or contact our experts to initialize deployment.
+                    </p>
                 </div>
-                <div class="col-6 col-lg-3">
-                    <h6 class="text-orange mb-3">What We Offer</h6>
-                    <a class="footer-link" href="https://aviatorgamesstaging.syscorp.in/">API Integration</a>
-                    <a class="footer-link" href="https://aviatorgamesstaging.syscorp.in/">Technical Support</a>
-                    <a class="footer-link" href="https://aviatorgamesstaging.syscorp.in/">Account Management</a>
-                    <a class="footer-link" href="https://aviatorgamesstaging.syscorp.in/">Commercial Model</a>
-                </div>
-                <div class="col-lg-3">
-                    <h6 class="text-orange mb-3">Contact</h6>
-                    <p class="footer-link"><i class="fas fa-envelope me-2 text-orange"></i>sales@aviatorgames.ai</p>
-                    <p class="footer-link"><i class="fas fa-phone me-2 text-orange"></i>+44 7578 630322</p>
-                    <p class="footer-link"><i class="fas fa-globe me-2 text-orange"></i>www.aviatorgames.ai</p>
+
+                <!-- B2B Package Buying Grid -->
+                <div class="b2b-buying-details-grid">
+                    <div class="row g-4">
+                        <!-- Item 1 -->
+                        <div class="col-md-6 col-lg-3">
+                            <div
+                                class="buying-spec-card revealed"
+                                style="
+                                    opacity: 1;
+                                    transform: none;
+                                    transition:
+                                        opacity 0.5s,
+                                        transform 0.5s;
+                                "
+                            >
+                                <div class="spec-icon-wrapper">
+                                    <i class="fas fa-gamepad"></i>
+                                </div>
+                                <h5>Official SPRIBE API</h5>
+                                <p>
+                                    Officially authorized distribution. Built-in Provably Fair engine with up to 97%
+                                    Return-To-Player (RTP) support.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="col-md-6 col-lg-3">
+                            <div
+                                class="buying-spec-card revealed"
+                                style="
+                                    opacity: 1;
+                                    transform: none;
+                                    transition:
+                                        opacity 0.5s,
+                                        transform 0.5s;
+                                "
+                            >
+                                <div class="spec-icon-wrapper">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h5>Turnkey Layout</h5>
+                                <p>
+                                    Fully brandable Bootstrap 5 + JS package. Highly optimized mobile score (99%) with
+                                    zero licensing fees.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="col-md-6 col-lg-3">
+                            <div
+                                class="buying-spec-card revealed"
+                                style="
+                                    opacity: 1;
+                                    transform: none;
+                                    transition:
+                                        opacity 0.5s,
+                                        transform 0.5s;
+                                "
+                            >
+                                <div class="spec-icon-wrapper">
+                                    <i class="fas fa-bolt-lightning"></i>
+                                </div>
+                                <h5>Rapid Integration</h5>
+                                <p>
+                                    API setup completes in less than 2 hours. Full documentation, sandbox environment,
+                                    and production keys.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="col-md-6 col-lg-3">
+                            <div
+                                class="buying-spec-card revealed"
+                                style="
+                                    opacity: 1;
+                                    transform: none;
+                                    transition:
+                                        opacity 0.5s,
+                                        transform 0.5s;
+                                "
+                            >
+                                <div class="spec-icon-wrapper">
+                                    <i class="fas fa-shield-halved"></i>
+                                </div>
+                                <h5>Direct SLA Support</h5>
+                                <p>
+                                    Dedicated tech consultant. 24/7 priority SLA support and long-term maintenance
+                                    updates.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button inside grid -->
+                    <div class="mt-5 text-center">
+                        <a href="https://wa.me/264817789719?text=Hi%2C%20I%27m%20interested%20in%20your%20Aviator%20API%20Integration.%20Please%20share%20the%20integration%20process%2C%20API%20documentation%2C%20pricing%2C%20and%20setup%20details." target="_blank" class="btn-primary-cta px-5 py-3 fs-5">
+                            <i class="fas fa-rocket me-2"></i>Start Your Aviator API Integration
+                        </a>
+                    </div>
                 </div>
             </div>
-            <hr class="footer-divider" />
-            <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
-                <p class="mb-0" style="color:var(--muted);font-size:.85rem">© 2025 Aviator API Integration. All rights
-                    reserved. Official SPRIBE Authorized Distributor.</p>
-                <p class="mb-0" style="color:var(--muted);font-size:.8rem">🔒 Provably Fair &nbsp;|&nbsp; ✅ Officially
-                    Authorized &nbsp;|&nbsp; 🌍 Global Support</p>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container text-start">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+                    <p class="mb-0" style="color: var(--muted); font-size: 0.85rem">
+                        © 2025 Aviator API Integration. All rights reserved. Official SPRIBE Authorized Distributor.
+                    </p>
+                    <p class="mb-0" style="color: var(--muted); font-size: 0.8rem">
+                        🔒 Provably Fair &nbsp;|&nbsp; ✅ Officially Authorized &nbsp;|&nbsp; 🌍 Global Support
+                    </p>
+                </div>
             </div>
+        </footer>
+
+        <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/264817789719?text=Hi%2C%20I%27m%20interested%20in%20your%20Aviator%20API%20Integration.%20Please%20share%20the%20integration%20process%2C%20API%20documentation%2C%20pricing%2C%20and%20setup%20details." target="_blank" class="whatsapp-float" aria-label="Contact us on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <div class="whatsapp-pulse"></div>
+        </a>
+
+        <!-- STICKY MOBILE CTA BAR -->
+        <div class="sticky-mobile-cta d-lg-none" id="stickyCta">
+            <a href="https://wa.me/264817789719?text=Hi%2C%20I%27m%20interested%20in%20your%20Aviator%20API%20Integration.%20Please%20share%20the%20integration%20process%2C%20API%20documentation%2C%20pricing%2C%20and%20setup%20details." target="_blank" class="sticky-cta-wa">
+                <i class="fab fa-whatsapp"></i> WhatsApp Us
+            </a>
+            <a href="https://aviatorgamesstaging.syscorp.in/" target="_blank" class="sticky-cta-demo">
+                <i class="fas fa-eye"></i> View Demo
+            </a>
         </div>
-    </footer>
 
-    <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/264817789719" target="_blank" class="whatsapp-float" aria-label="Contact us on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-        <div class="whatsapp-pulse"></div>
-    </a>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            // Urgency bar + Navbar offset
+            const urgencyBar = document.getElementById("urgencyBar");
+            const nav = document.getElementById("mainNav");
 
-    <!-- STICKY MOBILE CTA BAR -->
-    <div class="sticky-mobile-cta d-lg-none" id="stickyCta">
-        <a href="https://wa.me/264817789719" target="_blank" class="sticky-cta-wa">
-            <i class="fab fa-whatsapp"></i> WhatsApp Us
-        </a>
-        <a href="https://aviatorgamesstaging.syscorp.in/" target="_blank" class="sticky-cta-demo">
-            <i class="fas fa-eye"></i> View Demo
-        </a>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Urgency bar + Navbar offset
-        const urgencyBar = document.getElementById('urgencyBar');
-        const nav = document.getElementById('mainNav');
-
-        function updateNavOffset() {
-            const barH = urgencyBar && urgencyBar.offsetParent !== null ? urgencyBar.offsetHeight : 0;
-            nav.style.top = barH + 'px';
-            document.querySelector('.hero').style.paddingTop = (barH + 80) + 'px';
-        }
-        updateNavOffset();
-        // re-run when urgency bar is closed
-        document.querySelector('.urgency-close') && document.querySelector('.urgency-close').addEventListener('click', () => { setTimeout(updateNavOffset, 50); });
-
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                nav.style.background = 'rgba(255, 255, 255, 0.98)';
-                nav.style.boxShadow = '0 2px 24px rgba(15, 23, 42, 0.06)';
-            } else {
-                nav.style.background = 'rgba(255, 255, 255, 0.95)';
-                nav.style.boxShadow = 'none';
+            function updateNavOffset() {
+                const barH = urgencyBar && urgencyBar.offsetParent !== null ? urgencyBar.offsetHeight : 0;
+                nav.style.top = barH + "px";
+                document.querySelector(".hero").style.paddingTop = barH + 80 + "px";
             }
-        });
+            updateNavOffset();
+            // re-run when urgency bar is closed
+            document.querySelector(".urgency-close") &&
+                document.querySelector(".urgency-close").addEventListener("click", () => {
+                    setTimeout(updateNavOffset, 50);
+                });
 
-        // Scroll reveal animation
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(e => {
-                if (e.isIntersecting) {
-                    e.target.classList.add('revealed');
-                    e.target.style.opacity = 1;
-                    e.target.style.transform = 'none';
-                    observer.unobserve(e.target);
+            // Navbar scroll effect
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 50) {
+                    nav.style.background = "rgba(255, 255, 255, 0.98)";
+                    nav.style.boxShadow = "0 2px 24px rgba(15, 23, 42, 0.06)";
+                } else {
+                    nav.style.background = "rgba(255, 255, 255, 0.95)";
+                    nav.style.boxShadow = "none";
                 }
             });
-        }, { threshold: 0.05 });
 
-        document.querySelectorAll('.feature-card, .benefit-row, .stat-pill, .buying-spec-card, .trust-item, .reveal, .reveal-left, .reveal-right').forEach(el => {
-            if (!el.classList.contains('reveal') && !el.classList.contains('reveal-left') && !el.classList.contains('reveal-right')) {
-                el.style.opacity = 0;
-                el.style.transform = 'translateY(24px)';
-                el.style.transition = 'opacity .5s ease, transform .5s ease';
+            // Scroll reveal animation
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((e) => {
+                        if (e.isIntersecting) {
+                            e.target.classList.add("revealed");
+                            e.target.style.opacity = 1;
+                            e.target.style.transform = "none";
+                            observer.unobserve(e.target);
+                        }
+                    });
+                },
+                { threshold: 0.05 }
+            );
+
+            document
+                .querySelectorAll(
+                    ".feature-card, .benefit-row, .stat-pill, .buying-spec-card, .trust-item, .reveal, .reveal-left, .reveal-right"
+                )
+                .forEach((el) => {
+                    if (
+                        !el.classList.contains("reveal") &&
+                        !el.classList.contains("reveal-left") &&
+                        !el.classList.contains("reveal-right")
+                    ) {
+                        el.style.opacity = 0;
+                        el.style.transform = "translateY(24px)";
+                        el.style.transition = "opacity .5s ease, transform .5s ease";
+                    }
+                    observer.observe(el);
+                });
+
+            // --- TYPING ANIMATION FOR HERO BANNER ---
+            const words = [
+                "Easy Integration",
+                "Min Cost / Max Returns",
+                "Attractive ROI",
+                "Excellent RTP 97%",
+                "Attracting Traffic",
+            ];
+
+            let wordIndex = 0;
+            let charIndex = words[0].length;
+            let isDeleting = true;
+            const typedTextElement = document.getElementById("typed-text");
+
+            function type() {
+                if (!typedTextElement) return;
+                const currentWord = words[wordIndex];
+
+                if (isDeleting) {
+                    typedTextElement.textContent = currentWord.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typedTextElement.textContent = currentWord.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+
+                let typeSpeed = isDeleting ? 40 : 80;
+
+                if (!isDeleting && charIndex === currentWord.length) {
+                    typeSpeed = 2200; // Pause at full word
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    wordIndex = (wordIndex + 1) % words.length;
+                    typeSpeed = 400; // Brief pause before typing next word
+                }
+
+                setTimeout(type, typeSpeed);
             }
-            observer.observe(el);
-        });
 
-        // --- TYPING ANIMATION FOR HERO BANNER ---
-        const words = [
-            "Easy Integration",
-            "Min Cost / Max Returns",
-            "Attractive ROI",
-            "Excellent RTP 97%",
-            "Attracting Traffic"
-        ];
-
-
-
-        let wordIndex = 0;
-        let charIndex = words[0].length;
-        let isDeleting = true;
-        const typedTextElement = document.getElementById('typed-text');
-
-        function type() {
-            if (!typedTextElement) return;
-            const currentWord = words[wordIndex];
-
-            if (isDeleting) {
-                typedTextElement.textContent = currentWord.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                typedTextElement.textContent = currentWord.substring(0, charIndex + 1);
-                charIndex++;
+            // Start animation loop
+            if (typedTextElement) {
+                setTimeout(type, 2200);
             }
-
-            let typeSpeed = isDeleting ? 40 : 80;
-
-            if (!isDeleting && charIndex === currentWord.length) {
-                typeSpeed = 2200; // Pause at full word
-                isDeleting = true;
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                wordIndex = (wordIndex + 1) % words.length;
-                typeSpeed = 400; // Brief pause before typing next word
-            }
-
-            setTimeout(type, typeSpeed);
-        }
-
-        // Start animation loop
-        if (typedTextElement) {
-            setTimeout(type, 2200);
-        }
-    </script>
-</body>
-
+        </script>
+    </body>
 </html>
